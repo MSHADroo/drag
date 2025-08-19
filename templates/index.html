@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تصاویر بدون کپشن</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; direction: rtl; }
+        .row { display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; border: 1px solid #ccc; padding: 10px; border-radius: 8px; }
+        .row h2 { width: 100%; margin: 0 0 10px 0; color: #333; }
+        .image-container { position: relative; width: 350px; margin: 0 10px 10px 0; }
+        .image-container img { width: 100%; height: auto; border-radius: 4px; display: block; }
+        .caption-section { width: 100%; display: flex; margin-top: 10px; }
+        .caption-section input { flex-grow: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-left: 10px; }
+        .caption-section button { padding: 8px 15px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .point { position: absolute; width: 10px; height: 10px; background-color: red; border-radius: 50%; border: 1px solid white; transform: translate(-50%, -50%); z-index: 10; }
+        .nav-link { margin-bottom: 20px; display: inline-block; padding: 10px 15px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: #333; }
+        .nav-link:hover { background-color: #e0e0e0; }
+    </style>
+</head>
+<body>
+    <h1>تصاویر بدون کپشن</h1>
+   
+    <a href="{{ url_for('index') }}" class="nav-link">
+        {{ no_caption_count }} تصاویر بدون کپشن
+    </a>
+
+    <a href="{{ url_for('with_caption') }}" class="nav-link">
+         {{ has_caption_count }} تصویر دارای کپشن
+    </a>
+
+    <a href="{{ url_for('no_json_images') }}" class="nav-link">
+         {{ no_json_count }} دایرکتوری‌های بدون فایل جیسون 
+    </a>
+
+    
+    {% for file in files %}
+    <div class="row" data-json-path="{{ file.json_file_path }}">
+        <h2>{{ file.directory_name }}</h2>
+        
+        <div class="image-container">
+            <img class="responsive-img" src="{{ url_for('static', filename='data/' + file.frame1_image) }}" alt="Frame 1">
+            {% for point in file.source_points %}
+                <div class="point" style="left: {{ point.x/2.9257142857 }}px; top: {{ point.y/2.9257142857 }}px;"></div>
+            {% endfor %}
+        </div>
+
+        <div class="image-container">
+            <img class="responsive-img" src="{{ url_for('static', filename='data/' + file.frame2_image) }}" alt="Frame 2">
+            {% for point in file.target_points %}
+                <div class="point" style="left: {{ point.x/2.9257142857 }}px; top: {{ point.y/2.9257142857 }}px;"></div>
+            {% endfor %}
+        </div>
+
+        <div class="caption-section">
+            <input type="text" placeholder="کپشن را وارد کنید" value="{{ file.get('caption', '') }}">
+            <button onclick="updateCaption(this)">ثبت</button>
+            <button class="describe-btn" onclick="describeImages(this)" data-image1="{{ file.frame1_image }}" data-image2="{{ file.frame2_image }}">توضیح تصاویر</button>
+        </div>
+        <div class="description-area" style="margin-top: 10px; width: 100%; font-style: italic;"></div>
+    </div>
+    {% endfor %}
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+    "frame1_image": "frame_0039_crop.jpg",
+    "frame2_image": "frame_0058_crop.jpg",
+    "mask_area": [
+        {
+            "x": 464,
+            "y": 325
+        },
+        {
+            "x": 759,
+            "y": 349
+        },
+        {
+            "x": 786,
+            "y": 735
+        },
+        {
+            "x": 474,
+            "y": 780
+        }
+    ],
+    "source_points": [
+        {
+            "x": 650,
+            "y": 506
+        },
+        {
+            "x": 597,
+            "y": 408
+        }
+    ],
+    "target_points": [
+        {
+            "x": 523,
+            "y": 412
+        },
+        {
+            "x": 692,
+            "y": 489
+        }
+    ],
+    "caption": "A man standing on a hill, moving his arms above his head and moving forward."
+}

@@ -1,0 +1,43 @@
+{
+    "frame1_image": "frame_0023_crop.jpg",
+    "frame2_image": "frame_0063_crop.jpg",
+    "mask_area": [
+        {
+            "x": 320,
+            "y": 709
+        },
+        {
+            "x": 330,
+            "y": 937
+        },
+        {
+            "x": 429,
+            "y": 940
+        },
+        {
+            "x": 472,
+            "y": 712
+        }
+    ],
+    "source_points": [
+        {
+            "x": 345,
+            "y": 839
+        },
+        {
+            "x": 429,
+            "y": 842
+        }
+    ],
+    "target_points": [
+        {
+            "x": 331,
+            "y": 728
+        },
+        {
+            "x": 457,
+            "y": 728
+        }
+    ],
+    "caption": "a man standing in front of a waterfall and rising his arms"
+}

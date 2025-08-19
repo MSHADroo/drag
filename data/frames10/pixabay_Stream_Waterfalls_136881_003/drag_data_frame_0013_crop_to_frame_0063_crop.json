@@ -1,0 +1,35 @@
+{
+    "frame1_image": "frame_0013_crop.jpg",
+    "frame2_image": "frame_0063_crop.jpg",
+    "mask_area": [
+        {
+            "x": 379,
+            "y": 323
+        },
+        {
+            "x": 860,
+            "y": 328
+        },
+        {
+            "x": 857,
+            "y": 643
+        },
+        {
+            "x": 381,
+            "y": 644
+        }
+    ],
+    "source_points": [
+        {
+            "x": 619,
+            "y": 359
+        }
+    ],
+    "target_points": [
+        {
+            "x": 786,
+            "y": 373
+        }
+    ],
+    "caption": "a white bird walking in the water near the grass and puts his head forward"
+}

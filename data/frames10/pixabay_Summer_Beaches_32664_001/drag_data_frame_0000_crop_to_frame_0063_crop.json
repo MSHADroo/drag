@@ -1,0 +1,35 @@
+{
+    "frame1_image": "frame_0000_crop.jpg",
+    "frame2_image": "frame_0063_crop.jpg",
+    "mask_area": [
+        {
+            "x": 539,
+            "y": 532
+        },
+        {
+            "x": 628,
+            "y": 563
+        },
+        {
+            "x": 616,
+            "y": 590
+        },
+        {
+            "x": 531,
+            "y": 559
+        }
+    ],
+    "source_points": [
+        {
+            "x": 548,
+            "y": 549
+        }
+    ],
+    "target_points": [
+        {
+            "x": 615,
+            "y": 572
+        }
+    ],
+    "caption": "a man walking in the sidewalk"
+}

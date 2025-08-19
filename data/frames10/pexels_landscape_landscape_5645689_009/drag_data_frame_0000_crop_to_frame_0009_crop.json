@@ -1,0 +1,35 @@
+{
+    "frame1_image": "frame_0000_crop.jpg",
+    "frame2_image": "frame_0009_crop.jpg",
+    "mask_area": [
+        {
+            "x": 172,
+            "y": 451
+        },
+        {
+            "x": 788,
+            "y": 545
+        },
+        {
+            "x": 786,
+            "y": 884
+        },
+        {
+            "x": 176,
+            "y": 858
+        }
+    ],
+    "source_points": [
+        {
+            "x": 311,
+            "y": 558
+        }
+    ],
+    "target_points": [
+        {
+            "x": 257,
+            "y": 747
+        }
+    ],
+    "caption": "A man stands on a hill, moving his hands in front of his face and moving them downwards."
+}

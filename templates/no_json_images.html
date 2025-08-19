@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>دایرکتوری‌های بدون فایل JSON</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; direction: rtl; }
+        .dir-row { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .dir-row h2 { color: #333; }
+        .images-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .image-container { width: 100%; }
+        .image-container img { width: 100%; height: auto; border-radius: 4px; display: block; }
+        .nav-link { margin-bottom: 20px; display: inline-block; padding: 10px 15px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: #333; }
+        .nav-link:hover { background-color: #e0e0e0; }
+    </style>
+</head>
+<body>
+    <h1>دایرکتوری‌های بدون فایل JSON</h1>
+    <a href="{{ url_for('index') }}" class="nav-link">
+        {{ no_caption_count }} تصاویر بدون کپشن
+    </a>
+
+    <a href="{{ url_for('with_caption') }}" class="nav-link">
+         {{ has_caption_count }} تصویر دارای کپشن
+    </a>
+
+    <a href="{{ url_for('no_json_images') }}" class="nav-link">
+         {{ no_json_count }} دایرکتوری‌های بدون فایل جیسون 
+    </a>
+
+    {% for dir in dirs %}
+    <div class="dir-row">
+        <h2>{{ dir.directory_name }}</h2>
+        <div class="images-grid">
+            {% for image_path in dir.images %}
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='data/' + image_path) }}" alt="{{ image_path }}">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% else %}
+    <p>هیچ دایرکتوری بدون فایل JSON یافت نشد.</p>
+    {% endfor %}
+</body>
+</html>

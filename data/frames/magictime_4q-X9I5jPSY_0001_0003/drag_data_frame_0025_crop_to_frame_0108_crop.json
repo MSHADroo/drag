@@ -1,0 +1,35 @@
+{
+    "frame1_image": "frame_0025_crop.jpg",
+    "frame2_image": "frame_0108_crop.jpg",
+    "mask_area": [
+        {
+            "x": 419,
+            "y": 292
+        },
+        {
+            "x": 661,
+            "y": 296
+        },
+        {
+            "x": 664,
+            "y": 800
+        },
+        {
+            "x": 421,
+            "y": 801
+        }
+    ],
+    "source_points": [
+        {
+            "x": 572,
+            "y": 584
+        }
+    ],
+    "target_points": [
+        {
+            "x": 545,
+            "y": 433
+        }
+    ],
+    "caption": "a plant that is growing out of a pot"
+}

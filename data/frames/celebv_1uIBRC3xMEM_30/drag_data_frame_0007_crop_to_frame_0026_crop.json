@@ -1,0 +1,43 @@
+{
+    "frame1_image": "frame_0007_crop.jpg",
+    "frame2_image": "frame_0026_crop.jpg",
+    "mask_area": [
+        {
+            "x": 113,
+            "y": 83
+        },
+        {
+            "x": 749,
+            "y": 83
+        },
+        {
+            "x": 802,
+            "y": 795
+        },
+        {
+            "x": 124,
+            "y": 826
+        }
+    ],
+    "source_points": [
+        {
+            "x": 418,
+            "y": 482
+        },
+        {
+            "x": 331,
+            "y": 314
+        }
+    ],
+    "target_points": [
+        {
+            "x": 650,
+            "y": 463
+        },
+        {
+            "x": 644,
+            "y": 279
+        }
+    ],
+    "caption": "A man with his head turned to his right."
+}

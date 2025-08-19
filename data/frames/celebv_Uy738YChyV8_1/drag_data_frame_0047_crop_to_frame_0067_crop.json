@@ -1,0 +1,51 @@
+{
+    "frame1_image": "frame_0047_crop.jpg",
+    "frame2_image": "frame_0067_crop.jpg",
+    "mask_area": [
+        {
+            "x": 102,
+            "y": 106
+        },
+        {
+            "x": 795,
+            "y": 116
+        },
+        {
+            "x": 823,
+            "y": 947
+        },
+        {
+            "x": 110,
+            "y": 952
+        }
+    ],
+    "source_points": [
+        {
+            "x": 507,
+            "y": 562
+        },
+        {
+            "x": 713,
+            "y": 542
+        },
+        {
+            "x": 681,
+            "y": 696
+        }
+    ],
+    "target_points": [
+        {
+            "x": 387,
+            "y": 541
+        },
+        {
+            "x": 629,
+            "y": 560
+        },
+        {
+            "x": 523,
+            "y": 674
+        }
+    ],
+    "caption": "a child with a shaved head in the mud that turn his head to right"
+}
