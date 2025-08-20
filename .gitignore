@@ -1,2 +1,3 @@
 /.venv/
 /static/data/
+.DS_Store
