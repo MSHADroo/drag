@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const image2Path = button.dataset.image2;
         const descriptionArea = row.querySelector('.description-area');
 
-        descriptionArea.textContent = 'در حال تحلیل تصاویر...';
+        descriptionArea.textContent = 'Processing Images ...';
 
         fetch('/describe_images', {
             method: 'POST',

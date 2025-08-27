@@ -95,7 +95,7 @@ def describe_images():
             'success': True,
             'description1': description1,
             'description2': description2,
-            'combined_description': f"تصویر اول: {description1}. تصویر دوم: {description2}"
+            'combined_description': f"Frame 1: {description1}. Frame 2: {description2}"
         })
 
     except Exception as e:

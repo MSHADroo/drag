@@ -32,7 +32,7 @@
     }
   ],
   "caption": "someone holding a tablet with a sales sign on it",
-  "action": "strech a bar",
+  "action": "stretch a bar",
   "event_types": [
     "ContentCreation",
     "Rescaling"
