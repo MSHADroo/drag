@@ -1,7 +1,9 @@
 {
-  "caption": "Three Great Egret raise their heads and look in one direction.",
+  "caption": "Three Great Egrets stand close together in a snowy wetland; two appear to be shaking their heads while another is attentively facing forward.",
+  "action": "Three Great Egret raise their heads and look in one direction.",
   "first_frame_second": 2,
   "last_frame_second": 3,
   "frame1_image": "AFNSKXRE_frame1.jpg",
-  "frame2_image": "AFNSKXRE_frame2.jpg"
+  "frame2_image": "AFNSKXRE_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation"]
 }

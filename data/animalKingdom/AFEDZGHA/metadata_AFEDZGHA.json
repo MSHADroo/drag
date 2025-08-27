@@ -1,7 +1,9 @@
 {
-  "caption": "bird turns its body around.",
+  "caption": "The image shows a nightingale perched on a branch among dense greenery. The bird is keeping still while slightly turning its body around.",
+  "action": "bird turns its body around.",
   "first_frame_second": 1,
   "last_frame_second": 7,
   "frame1_image": "AFEDZGHA_frame1.jpg",
-  "frame2_image": "AFEDZGHA_frame2.jpg"
+  "frame2_image": "AFEDZGHA_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
 }

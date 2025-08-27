@@ -1,7 +1,9 @@
 {
-  "caption": "Nightingale closes its mouth.",
+  "caption": "A nightingale is perched on a branch, appearing alert while chirping loudly. It is directing its attention outward, remaining still as it sings.",
+  "action": "Nightingale closes its mouth.",
   "first_frame_second": 5,
   "last_frame_second": 7,
   "frame1_image": "AABCQPTK_frame1.jpg",
-  "frame2_image": "AABCQPTK_frame2.jpg"
+  "frame2_image": "AABCQPTK_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content removal"]
 }
