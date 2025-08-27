@@ -1,35 +1,23 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en-US" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>تصاویر دارای کپشن</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; direction: rtl; }
-        .row { display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; border: 1px solid #ccc; padding: 10px; border-radius: 8px; }
-        .row h2 { width: 100%; margin: 0 0 10px 0; color: #333; }
-        .image-container { position: relative; width: 350px; margin: 0 10px 10px 0; }
-        .image-container img { width: 100%; height: auto; border-radius: 4px; display: block; }
-        .caption-section { width: 100%; display: flex; margin-top: 10px; }
-        .caption-section input { flex-grow: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-left: 10px; direction: ltr;}
-        .caption-section button { padding: 8px 15px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
-        .point { position: absolute; width: 10px; height: 10px; background-color: red; border-radius: 50%; border: 1px solid white; transform: translate(-50%, -50%); z-index: 10; }
-        .nav-link { margin-bottom: 20px; display: inline-block; padding: 10px 15px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: #333; }
-        .nav-link:hover { background-color: #e0e0e0; }
-    </style>
+    <title>Images with captions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>تصاویر دارای کپشن</h1>
+    <h1>Images with captions</h1>
     
      <a href="{{ url_for('index') }}" class="nav-link">
-        {{ no_caption_count }} تصاویر بدون کپشن
+        {{ no_caption_count }} Images without captions
     </a>
 
     <a href="{{ url_for('with_caption') }}" class="nav-link">
-         {{ has_caption_count }} تصویر دارای کپشن
+         {{ has_caption_count }} Images with captions
     </a>
 
     <a href="{{ url_for('no_json_images') }}" class="nav-link">
-         {{ no_json_count }} دایرکتوری‌های بدون فایل جیسون 
+         {{ no_json_count }} Directories without JSON files
     </a>
 
     {% for file in files %}
@@ -50,10 +38,23 @@
             {% endfor %}
         </div>
 
-        <div class="caption-section">
+       <div class="caption-section">
             <input type="text" placeholder="Enter Caption" value="{{ file.get('caption', '') }}">
-            <button onclick="updateCaption(this)">ثبت</button>
+            <input type="text" placeholder="Enter Action" value="{{ file.get('action', '') }}">
+            <div class="event-types">
+                {% set event_types = file.get('event_types', []) %}
+                {% for etype in ['ContentCreation','Rescaling','Relocation','ContentRemoval','Rotation','Other'] %}
+                    <button type="button"
+                        class="event-type-btn{% if etype in event_types %} selected{% endif %}"
+                        data-value="{{ etype }}">
+                        {{ etype }}
+                    </button>
+                {% endfor %}
+            </div>
+            <button onclick="updateCaption(this)" class="action-btn save">Submit</button>
+            <button class="describe-btn action-btn describe" onclick="describeImages(this)" data-image1="{{ file.frame1_image }}" data-image2="{{ file.frame2_image }}">Describe Images</button>
         </div>
+        <div class="description-area" style="margin-top: 10px; width: 100%; font-style: italic;direction: ltr;"></div>
     </div>
     {% endfor %}
 

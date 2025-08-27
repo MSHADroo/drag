@@ -56,13 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // تابع به‌روزرسانی کپشن (بدون تغییر)
+    // تابع به‌روزرسانی کپشن (اکنون شامل action و event types)
     window.updateCaption = function(button) {
         const row = button.closest('.row');
         const jsonPath = row.dataset.jsonPath;
-        const input = row.querySelector('input');
-        const caption = input.value;
-    
+        const inputs = row.querySelectorAll('input');
+        const caption = inputs[0].value;
+        const action = inputs[1].value;
+
+        // Get selected event types from buttons
+        const eventTypes = Array.from(row.querySelectorAll('.event-type-btn.selected')).map(btn => btn.dataset.value);
+
         fetch('/update_caption', {
             method: 'POST',
             headers: {
@@ -70,16 +74,17 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             body: JSON.stringify({
                 json_file_path: jsonPath,
-                caption: caption
+                caption: caption,
+                action: action,
+                event_types: eventTypes
             }),
         })
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                alert('کپشن با موفقیت ثبت شد!');
-                // window.location.href = '/';
+                alert('اطلاعات با موفقیت ثبت شد!');
             } else {
-                alert('خطا در ثبت کپشن: ' + data.message);
+                alert('خطا در ثبت اطلاعات: ' + data.message);
             }
         })
         .catch(error => {
@@ -87,4 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('خطا در ارتباط با سرور.');
         });
     };
+
+    // Add this after DOMContentLoaded:
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('event-type-btn')) {
+            e.target.classList.toggle('selected');
+        }
+    });
 });

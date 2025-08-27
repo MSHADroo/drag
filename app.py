@@ -151,23 +151,28 @@ def update_caption():
     data = request.get_json()
     json_file_path = data.get('json_file_path')
     caption = data.get('caption')
+    action = data.get('action')
+    event_types = data.get('event_types', [])
 
-    if not json_file_path or caption is None:
-        return jsonify({'success': False, 'message': 'Invalid data'}), 400
+    if not json_file_path or not os.path.exists(json_file_path):
+        return jsonify({'success': False, 'message': 'JSON file not found.'})
 
     try:
-        if not os.path.abspath(json_file_path).startswith(os.path.abspath(BASE_DIR)):
-            return jsonify({'success': False, 'message': 'Access denied'}), 403
+        with open(json_file_path, 'r', encoding='utf-8') as f:
+            content = json.load(f)
+    except Exception:
+        content = {}
 
-        with open(json_file_path, 'r+', encoding='utf-8') as f:
-            file_data = json.load(f)
-            file_data['caption'] = caption
-            f.seek(0)
-            json.dump(file_data, f, indent=4, ensure_ascii=False)
-            f.truncate()
-        return jsonify({'success': True, 'message': 'Caption updated successfully'})
+    content['caption'] = caption
+    content['action'] = action
+    content['event_types'] = event_types
+
+    try:
+        with open(json_file_path, 'w', encoding='utf-8') as f:
+            json.dump(content, f, ensure_ascii=False, indent=2)
+        return jsonify({'success': True})
     except Exception as e:
-        return jsonify({'success': False, 'message': str(e)}), 500
+        return jsonify({'success': False, 'message': str(e)})
 
 if __name__ == '__main__':
     copy_new_files_to_static()
