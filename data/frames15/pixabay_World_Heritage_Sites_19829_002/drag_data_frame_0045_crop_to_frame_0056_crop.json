@@ -1,0 +1,40 @@
+{
+  "frame1_image": "frame_0045_crop.jpg",
+  "frame2_image": "frame_0056_crop.jpg",
+  "mask_area": [
+    {
+      "x": 816,
+      "y": 516
+    },
+    {
+      "x": 656,
+      "y": 846
+    },
+    {
+      "x": 738,
+      "y": 889
+    },
+    {
+      "x": 906,
+      "y": 548
+    }
+  ],
+  "source_points": [
+    {
+      "x": 759,
+      "y": 744
+    }
+  ],
+  "target_points": [
+    {
+      "x": 851,
+      "y": 559
+    }
+  ],
+  "caption": "someone holding a tablet with a sales sign on it",
+  "action": "strech a bar",
+  "event_types": [
+    "ContentCreation",
+    "Rescaling"
+  ]
+}
