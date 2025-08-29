@@ -1,7 +1,9 @@
 {
-  "caption": "Two Animal moves from one spot to another.",
+  "caption": "Two Planarian Schmidtea Mediterranea flatworms moving across a surface. Their movement is similar to crawling, a behavior also seen in insects.",
+  "action": "Two Planarian Schmidtea Mediterranea flatworms moving from one spot to another.",
   "first_frame_second": 0,
   "last_frame_second": 2,
   "frame1_image": "AITNUIQQ_frame1.jpg",
-  "frame2_image": "AITNUIQQ_frame2.jpg"
+  "frame2_image": "AITNUIQQ_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation", "content creation"]
 }

@@ -1,7 +1,9 @@
 {
-  "caption": "The goat moves and eats grass.",
+  "caption": "Two Chamois Goat Antelopes grazing on a grassy patch in a mountainous area with patches of snow.",
+  "action": "Goats moving closer to each other and eat grass.",
   "first_frame_second": 3,
   "last_frame_second": 4.4,
   "frame1_image": "APDAFUPH_frame1.jpg",
-  "frame2_image": "APDAFUPH_frame2.jpg"
+  "frame2_image": "APDAFUPH_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation"]
 }

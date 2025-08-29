@@ -3,10 +3,10 @@ import os
 import json
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QPushButton, QLabel, QScrollArea, QSizePolicy, QFileDialog, QMessageBox, QFrame, QButtonGroup # Added QButtonGroup
+    QPushButton, QLabel, QScrollArea, QSizePolicy, QFileDialog, QMessageBox, QFrame
 )
 from PyQt5.QtGui import QPixmap, QMouseEvent, QPainter, QPen, QColor, QBrush
-from PyQt5.QtCore import Qt, QSize, QPoint, pyqtSignal, QRect
+from PyQt5.QtCore import Qt, QPoint, pyqtSignal, QRect
 
 # Supported image file extensions
 IMAGE_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')

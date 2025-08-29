@@ -1,7 +1,9 @@
 {
-  "caption": "Animal moves from one spot to another.",
+  "caption": "A Monarch Butterfly caterpillar (Danaus plexippus) is positioned on the tip of a green leaf, appearing to interact with or move along its surface. The caterpillar's head is prominent, and its body is wrapped around the leaf.",
+  "action": "Animal moves from one spot to another.",
   "first_frame_second": 1,
   "last_frame_second": 3.8,
   "frame1_image": "AHENPRHW_frame1.jpg",
-  "frame2_image": "AHENPRHW_frame2.jpg"
+  "frame2_image": "AHENPRHW_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation"]
 }

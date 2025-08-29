@@ -1,7 +1,9 @@
 {
-  "caption": "Animal move its head to scan its surrounding.",
+  "caption": "Eelgrass Sea Hare partially hidden between green eelgrass blades, appearing to extend its head.",
+  "action": "Animal lowers its head to scan its surrounding.",
   "first_frame_second": 2.9,
   "last_frame_second": 4.5,
   "frame1_image": "AMSGFIVA_frame1.jpg",
-  "frame2_image": "AMSGFIVA_frame2.jpg"
+  "frame2_image": "AMSGFIVA_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
 }

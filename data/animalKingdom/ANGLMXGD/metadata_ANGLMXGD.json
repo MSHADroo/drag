@@ -1,7 +1,9 @@
 {
-  "caption": "The horse raises its head while eating grass.",
+  "caption": "Two horses are grazing and feeding on grass in a lush, wooded area; one horse is attentively gnawing on vegetation while the other remains still.",
+  "action": "Horse raises its head while eating grass.",
   "first_frame_second": 1,
   "last_frame_second": 2,
   "frame1_image": "ANGLMXGD_frame1.jpg",
-  "frame2_image": "ANGLMXGD_frame2.jpg"
+  "frame2_image": "ANGLMXGD_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
 }

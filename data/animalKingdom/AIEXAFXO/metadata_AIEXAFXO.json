@@ -1,7 +1,9 @@
 {
-  "caption": "The bird turns its head and sings.",
+  "caption": "Tit bird perched on a broken tree stump, looking alert with its beak closed, against a blurred natural background. The bird appears to be sensing its surroundings.",
+  "action": "Bird turns its head to the left and sings.",
   "first_frame_second": 4,
   "last_frame_second": 2.2,
   "frame1_image": "AIEXAFXO_frame1.jpg",
-  "frame2_image": "AIEXAFXO_frame2.jpg"
+  "frame2_image": "AIEXAFXO_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
 }

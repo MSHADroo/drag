@@ -1,0 +1,9 @@
+{
+  "caption": "A spider on a green leaf, appearing to interact with a small white object beneath its body, possibly holding or manipulating it.",
+  "action": "Spider moves its back to left and its head to right.",
+  "first_frame_second": 1,
+  "last_frame_second": 2,
+  "frame1_image": "ANJQUCEI_frame1.jpg",
+  "frame2_image": "ANJQUCEI_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
+}
