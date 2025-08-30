@@ -1,7 +1,9 @@
 {
-  "caption": "The Turtle swims in the water.",
+  "caption": "Chelonia Mydas turtle is swimming near the water's surface, with its shell and flippers clearly visible against a blue background.",
+  "action": "Turtle swims in the water and opens its fins.",
   "first_frame_second": 1.5,
   "last_frame_second": 3.0,
   "frame1_image": "AQNVCEDF_frame1.jpg",
-  "frame2_image": "AQNVCEDF_frame2.jpg"
+  "frame2_image": "AQNVCEDF_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content creation", "rotation", "relocation"]
 }

@@ -1,7 +1,9 @@
 {
-  "caption": "Bird flapping its tail.",
+  "caption": "A cuckoo bird is perched on a mossy branch, flapping its tail against a blurred green and brown forest background.",
+  "action": "Bird flapping its tail.",
   "first_frame_second": 7,
   "last_frame_second": 6.4,
   "frame1_image": "BFGQFIBW_frame1.jpg",
-  "frame2_image": "BFGQFIBW_frame2.jpg"
+  "frame2_image": "BFGQFIBW_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation", "content creation", "content removal"]
 }

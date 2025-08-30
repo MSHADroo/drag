@@ -1,7 +1,9 @@
 {
-  "caption": "The fox moves its head.",
+  "caption": "A fox is standing in the snow, appearing to sense or listen for something beneath the surface. The scene suggests the fox is alert and focused, possibly hunting.",
+  "action": "Fox moves its head to left and looks at back",
   "first_frame_second": 0,
   "last_frame_second": 4,
   "frame1_image": "BFBBMEBY_frame1.jpg",
-  "frame2_image": "BFBBMEBY_frame2.jpg"
+  "frame2_image": "BFBBMEBY_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation", "content creation"]
 }
