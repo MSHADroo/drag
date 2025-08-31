@@ -1,0 +1,14 @@
+{
+  "caption": "Two birds, a Tachybaptus ruficollis (Little Grebe) and an Anas platyrhynchos (Mallard), swimming in a calm, reflective body of water surrounded by tall grasses and bare branches. The serene setting is bathed in warm golden light, creating a peaceful and natural scene.",
+  "first_frame_second": 0,
+  "last_frame_second": 2,
+  "frame1_image": "BXJACVEI_frame1.jpg",
+  "frame2_image": "BXJACVEI_frame2.jpg",
+  "action": "Left bird swims to right and right bird swims to left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
+}

@@ -1,7 +1,14 @@
 {
-  "caption": "The bird turns its head.",
+  "caption": "A European robin is perched still, alert and attentive, possibly about to chirp. Its vivid orange breast and soft plumage are clearly visible against a blurred natural background.",
   "first_frame_second": 0,
   "last_frame_second": 5,
   "frame1_image": "BUGORUDI_frame1.jpg",
-  "frame2_image": "BUGORUDI_frame2.jpg"
+  "frame2_image": "BUGORUDI_frame2.jpg",
+  "action": "The bird turns its head to left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
 }

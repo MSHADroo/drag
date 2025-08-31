@@ -1,7 +1,16 @@
 {
-  "caption": "The bird turns its head.",
+  "caption": "TAlauda arvensis bird (Eurasian Skylark) perched among green leaves, appearing alert and sensing its surroundings. Dewdrops are visible on the leaves, creating a fresh, natural setting.",
   "first_frame_second": 0,
   "last_frame_second": 6,
   "frame1_image": "CAUXPJIR_frame1.jpg",
-  "frame2_image": "CAUXPJIR_frame2.jpg"
+  "frame2_image": "CAUXPJIR_frame2.jpg",
+  "action": "The bird turns its head to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
 }

@@ -1,7 +1,14 @@
 {
-  "caption": "The Egret moves forward.",
+  "caption": "Several Ardea Alba Egrets and a Grey Heron interacting near a body of water; some of the egrets are standing still, while others are walking, and the heron appears to be engaged with the group.",
   "first_frame_second": 5.3,
   "last_frame_second": 5.9,
   "frame1_image": "BIFUQPLS_frame1.jpg",
-  "frame2_image": "BIFUQPLS_frame2.jpg"
+  "frame2_image": "BIFUQPLS_frame2.jpg",
+  "action": "Egret moves forward.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
 }
