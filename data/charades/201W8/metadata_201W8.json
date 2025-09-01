@@ -1,7 +1,15 @@
 {
-  "caption": "A person who turns on the tap with his right hand.",
+  "caption": "",
+  "action": "A person streches his right hand towards the sink.",
   "first_frame_second": 13,
   "last_frame_second": 14,
   "frame1_image": "201W8_frame1.jpg",
-  "frame2_image": "201W8_frame2.jpg"
+  "frame2_image": "201W8_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "content removal",
+    "relocation"
+  ]
 }

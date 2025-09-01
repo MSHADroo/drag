@@ -1,0 +1,17 @@
+{
+  "caption": "",
+  "action": "A person opening door of cabinet and placing his left hand inside it; while hiding his right hand behing his body.",
+  "first_frame_second": 8,
+  "last_frame_second": 14,
+  "frame1_image": "08F85_frame1.jpg",
+  "frame2_image": "08F85_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "rotation",
+    "content removal",
+    "content creation"
+  ]
+}

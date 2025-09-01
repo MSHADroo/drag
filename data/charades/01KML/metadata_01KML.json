@@ -1,7 +1,15 @@
 {
-  "caption": "A person is laughing while using the vacuum cleaner in the hallway.",
+  "caption": "",
+  "action": "A person is laughing while using the vacuum cleaner in the hallway.",
   "first_frame_second": 3,
   "last_frame_second": 5,
   "frame1_image": "01KML_frame1.jpg",
-  "frame2_image": "01KML_frame2.jpg"
+  "frame2_image": "01KML_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "rotation"
+  ]
 }

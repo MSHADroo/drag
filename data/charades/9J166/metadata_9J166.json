@@ -1,0 +1,14 @@
+{
+  "caption": "",
+  "action": "A person is opening a window while holding a book.",
+  "first_frame_second": 11,
+  "last_frame_second": 12,
+  "frame1_image": "9J166_frame1.jpg",
+  "frame2_image": "9J166_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "content creation"
+  ]
+}
