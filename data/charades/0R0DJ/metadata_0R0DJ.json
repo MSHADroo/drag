@@ -1,7 +1,16 @@
 {
-  "caption": "One person sitting on the stairs opens a laptop",
+  "caption": "A person sits on wooden stairs using a laptop; a pair of shoes and some dirty dishes are visible beside them. The person appears relaxed and at ease in a casual home setting.",
   "first_frame_second": 1,
   "last_frame_second": 3,
   "frame1_image": "0R0DJ_frame1.jpg",
-  "frame2_image": "0R0DJ_frame2.jpg"
+  "frame2_image": "0R0DJ_frame2.jpg",
+  "action": "Woman opening a laptop.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content removal",
+    "content creation"
+  ]
 }
