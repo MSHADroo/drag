@@ -1,7 +1,9 @@
 {
-  "caption": "Meerkat stands still on its hind legs, observes the situation and is ready to attack or escape.",
+  "caption": "The image shows a group of meerkats at sunset, with one standing upright on its hind legs in an alert posture while others move about nearby. The scene captures both vigilance and movement within the group.",
+  "action": "Meerkat stands still on its hind legs, observes the situation and is ready to attack or escape.",
   "first_frame_second": 0,
   "last_frame_second": 1,
   "frame1_image": "ADQKWFKM_frame1.jpg",
-  "frame2_image": "ADQKWFKM_frame2.jpg"
+  "frame2_image": "ADQKWFKM_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content creation"]
 }

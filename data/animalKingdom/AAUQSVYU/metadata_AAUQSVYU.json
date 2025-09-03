@@ -1,7 +1,9 @@
 {
-  "caption": "The leopard turns to the right.",
+  "caption": "A leopard is walking slowly on a dirt path near a wire fence, with trees and vegetation in the background",
+  "action": "Leopard turns to the right.",
   "first_frame_second": 4,
   "last_frame_second": 6.6,
   "frame1_image": "AAUQSVYU_frame1.jpg",
-  "frame2_image": "AAUQSVYU_frame2.jpg"
+  "frame2_image": "AAUQSVYU_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content creation", "rotation"]
 }

@@ -1,7 +1,9 @@
 {
-  "caption": "The Leopard sit and drink water.",
+  "caption": "A leopard is drinking water from a trough at night, as captured by a trail camera.",
+  "action": "Leopard sits and drinks water.",
   "first_frame_second": 3,
   "last_frame_second": 6,
   "frame1_image": "BDMVTVYU_frame1.jpg",
-  "frame2_image": "BDMVTVYU_frame2.jpg"
+  "frame2_image": "BDMVTVYU_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation", "content removal"]
 }

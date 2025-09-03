@@ -1,7 +1,9 @@
 {
-  "caption": "Common Crane raising its head.",
+  "caption": "Two Common Cranes are foraging in a grassy field, with one bird attentively directing its focus toward the ground while the other feeds by probing into the vegetation. The scene is set in warm light with a misty treeline in the background.",
+  "action": "Common Crane raising its head.",
   "first_frame_second": 0,
   "last_frame_second": 1,
   "frame1_image": "AAACXZTV_frame1.jpg",
-  "frame2_image": "AAACXZTV_frame2.jpg"
+  "frame2_image": "AAACXZTV_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content creation"]
 }

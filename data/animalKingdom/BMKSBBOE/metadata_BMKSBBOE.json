@@ -1,0 +1,15 @@
+{
+  "caption": "A nightingale bird is perched on a moss-covered branch, appearing to chirp amid a lush green background.",
+  "first_frame_second": 1,
+  "last_frame_second": 3,
+  "frame1_image": "BMKSBBOE_frame1.jpg",
+  "frame2_image": "BMKSBBOE_frame2.jpg",
+  "action": "Bird closes its mouth.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content removal"
+  ]
+}

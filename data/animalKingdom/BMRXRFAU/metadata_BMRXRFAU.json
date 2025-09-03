@@ -1,7 +1,14 @@
 {
-  "caption": "Animal is being held by the mouth of another animal and dragged along.",
+  "caption": "A jeweled cockroach wasp is biting a cockroach, which appears to be in the process of being dragged, likely as part of the wasp's predatory behavior. The scene takes place in a natural, earthy environment.",
   "first_frame_second": 0,
   "last_frame_second": 4,
   "frame1_image": "BMRXRFAU_frame1.jpg",
-  "frame2_image": "BMRXRFAU_frame2.jpg"
+  "frame2_image": "BMRXRFAU_frame2.jpg",
+  "action": "Cockroach is being held by the mouth of another cockroach and dragged along.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
 }

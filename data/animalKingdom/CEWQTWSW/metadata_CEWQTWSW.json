@@ -1,7 +1,14 @@
 {
-  "caption": "The chameleon shifts the direction of its eye.",
+  "caption": "A chameleon is shown in close-up, its textured skin displaying green and orange hues as it appears to be sensing its surroundings in a lush, natural habitat.",
   "first_frame_second": 2.7,
   "last_frame_second": 2.8,
   "frame1_image": "CEWQTWSW_frame1.jpg",
-  "frame2_image": "CEWQTWSW_frame2.jpg"
+  "frame2_image": "CEWQTWSW_frame2.jpg",
+  "action": "Chameleon shifts the direction of its eye.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
 }

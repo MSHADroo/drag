@@ -1,7 +1,15 @@
 {
-  "caption": "The bird is singing.",
+  "caption": "A Chaffinch bird is perched on a tree branch, chirping amidst a natural, blurred green background. The image has a calm and vibrant wildlife atmosphere.",
   "first_frame_second": 0,
   "last_frame_second": 2,
   "frame1_image": "CDKHNHCU_frame1.jpg",
-  "frame2_image": "CDKHNHCU_frame2.jpg"
+  "frame2_image": "CDKHNHCU_frame2.jpg",
+  "action": "Bird raising its head and opening its beak to sing.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content creation"
+  ]
 }

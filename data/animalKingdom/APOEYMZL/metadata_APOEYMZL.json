@@ -1,7 +1,9 @@
 {
-  "caption": "butterfly open its wings.",
+  "caption": "A Greta Oto Glasswing Butterfly is perched on a green leaf surrounded by lush foliage, displaying its transparent wings.",
+  "action": "Butterfly opens its wings.",
   "first_frame_second": 0,
   "last_frame_second": 3,
   "frame1_image": "APOEYMZL_frame1.jpg",
-  "frame2_image": "APOEYMZL_frame2.jpg"
+  "frame2_image": "APOEYMZL_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "rotation"]
 }

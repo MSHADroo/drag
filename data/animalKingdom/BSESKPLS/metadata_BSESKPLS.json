@@ -1,7 +1,15 @@
 {
-  "caption": "The bird dips its head in the water.",
+  "caption": "A Grey Heron stands still near two Ardea Alba Egrets in shallow water, while one of the egrets bends down to eat. The birds are set against a backdrop of reeds and grasses.",
   "first_frame_second": 0,
   "last_frame_second": 1,
   "frame1_image": "BSESKPLS_frame1.jpg",
-  "frame2_image": "BSESKPLS_frame2.jpg"
+  "frame2_image": "BSESKPLS_frame2.jpg",
+  "action": "The bird dips its head in the water.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation",
+    "content removal"
+  ]
 }

@@ -1,7 +1,9 @@
 {
-  "caption": "Animal moves from one spot to another.",
+  "caption": "A nightingale bird is perched on a tree branch covered in lichen and white blossoms, attentively observing its surroundings and chirping, while occasionally moving slowly among the branches.",
+  "action": "Animal moves from one spot to another.",
   "first_frame_second": 3,
   "last_frame_second": 3.9,
   "frame1_image": "AGNEFGHA_frame1.jpg",
-  "frame2_image": "AGNEFGHA_frame2.jpg"
+  "frame2_image": "AGNEFGHA_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation", "content creation"]
 }

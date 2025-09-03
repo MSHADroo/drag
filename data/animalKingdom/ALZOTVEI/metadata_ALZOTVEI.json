@@ -1,7 +1,9 @@
 {
-  "caption": "The bird lowers its head.",
+  "caption": "Charadrius Dubius bird standing still on a muddy surface, appearing immobilized",
+  "action": "Bird lowers its head.",
   "first_frame_second": 0.8,
   "last_frame_second": 1,
   "frame1_image": "ALZOTVEI_frame1.jpg",
-  "frame2_image": "ALZOTVEI_frame2.jpg"
+  "frame2_image": "ALZOTVEI_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "relocation"]
 }

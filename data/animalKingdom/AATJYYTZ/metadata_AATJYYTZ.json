@@ -1,7 +1,9 @@
 {
-  "caption": "The goose puts its head under the water.",
+  "caption": "A Greylag Goose is standing in shallow water, shaking its head and splashing around as part of washing and grooming behavior. The calm reflection on the water contrasts with its active movement.",
+  "action": "Goose puts its head under the water.",
   "first_frame_second": 3,
   "last_frame_second": 3.6,
   "frame1_image": "AATJYYTZ_frame1.jpg",
-  "frame2_image": "AATJYYTZ_frame2.jpg"
+  "frame2_image": "AATJYYTZ_frame2.jpg",
+  "categories": ["real", "outdoor", "animal", "content removal"]
 }

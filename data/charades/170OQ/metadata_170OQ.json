@@ -1,0 +1,16 @@
+{
+  "caption": "",
+  "action": "A person reaches to get a blanket from the floor.",
+  "first_frame_second": 18,
+  "last_frame_second": 20,
+  "frame1_image": "170OQ_frame1.jpg",
+  "frame2_image": "170OQ_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation",
+    "content removal"
+  ]
+}

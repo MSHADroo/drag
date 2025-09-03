@@ -1,0 +1,15 @@
+{
+  "caption": "",
+  "action": "A person is laughing at the book and eating a snack out of a box.",
+  "first_frame_second": 20,
+  "last_frame_second": 12,
+  "frame1_image": "3VH9O_frame1.jpg",
+  "frame2_image": "3VH9O_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "content creation"
+  ]
+}

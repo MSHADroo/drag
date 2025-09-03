@@ -1,7 +1,14 @@
 {
-  "caption": "A person sitting at a table and placing their glass on the table",
+  "caption": "",
+  "action": "A person sitting on a chair and placing their glass on the table",
   "first_frame_second": 1,
   "last_frame_second": 24,
   "frame1_image": "6YGBD_frame1.jpg",
-  "frame2_image": "6YGBD_frame2.jpg"
+  "frame2_image": "6YGBD_frame2.jpg",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation"
+  ]
 }
