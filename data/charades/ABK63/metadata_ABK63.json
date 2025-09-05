@@ -1,7 +1,15 @@
 {
-  "caption": "A man lying down and bending his right knee.",
+  "caption": "A man is lying on a bed in a cozy, dimly lit room, holding a pillow and appearing relaxed. The room has blue walls decorated with various photos and artwork, and a table nearby holds a couple of glasses and other items.",
   "first_frame_second": 8,
   "last_frame_second": 9.5,
   "frame1_image": "ABK63_frame1.jpg",
-  "frame2_image": "ABK63_frame2.jpg"
+  "frame2_image": "ABK63_frame2.jpg",
+  "action": "A man lying down and bending his right knee.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "rotation"
+  ]
 }

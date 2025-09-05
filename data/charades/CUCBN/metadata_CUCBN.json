@@ -1,0 +1,15 @@
+{
+  "caption": "A man is sitting on a couch in a living room, looking through a bag of groceries placed on the table in front of them. The room is well-lit with natural light from a window, and there are several plants on the windowsill.",
+  "first_frame_second": 2,
+  "last_frame_second": 10,
+  "frame1_image": "CUCBN_frame1.jpg",
+  "frame2_image": "CUCBN_frame2.jpg",
+  "action": "A man stands up from the couch.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "content creation"
+  ]
+}

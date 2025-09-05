@@ -1,7 +1,15 @@
 {
-  "caption": "A person taking his hand with the mobile phone out of his pocket and holding it in front of him with the help of his other hand",
+  "caption": "A person is cooking at the stove in a cozy kitchen. The kitchen appears lived-in, with dishes and utensils visible on the countertop.",
   "first_frame_second": 7.5,
   "last_frame_second": 9.8,
   "frame1_image": "DUEEE_frame1.jpg",
-  "frame2_image": "DUEEE_frame2.jpg"
+  "frame2_image": "DUEEE_frame2.jpg",
+  "action": "A person taking their hand with the mobile phone out of their pocket and holding it in front of them with help of their other hand.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
 }

@@ -1,7 +1,16 @@
 {
-  "caption": "A person lying in bed rubbing her eyes with one hand",
+  "caption": "A man is lying on a bed asleep in a dimly lit room. He appears to be just starting to wake up.",
   "first_frame_second": 19,
   "last_frame_second": 21.4,
   "frame1_image": "CBXI2_frame1.jpg",
-  "frame2_image": "CBXI2_frame2.jpg"
+  "frame2_image": "CBXI2_frame2.jpg",
+  "action": "A person lying in bed rubbing their eyes with their right hand",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation",
+    "content removal"
+  ]
 }

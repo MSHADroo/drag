@@ -1,7 +1,15 @@
 {
-  "caption": "A man pulling a pot on the stove towards him.",
+  "caption": "A man is standing in a kitchen near the stove, appearing to cook while a chair is pulled out from the counter. The kitchen environment looks homey and lived-in, with dishes drying by the sink and a refrigerator nearby.",
   "first_frame_second": 28,
   "last_frame_second": 30,
   "frame1_image": "9335E_frame1.jpg",
-  "frame2_image": "9335E_frame2.jpg"
+  "frame2_image": "9335E_frame2.jpg",
+  "action": "A man pulling a pot on the stove towards him.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "content creation"
+  ]
 }

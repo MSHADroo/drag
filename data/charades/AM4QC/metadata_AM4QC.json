@@ -1,7 +1,14 @@
 {
-  "caption": "A person opens the refrigerator and slightly bowed her head",
+  "caption": "A man is closing the refrigerator door in a kitchen, with a notepad and pen visible on the counter nearby.",
   "first_frame_second": 0,
   "last_frame_second": 0.8,
   "frame1_image": "AM4QC_frame1.jpg",
-  "frame2_image": "AM4QC_frame2.jpg"
+  "frame2_image": "AM4QC_frame2.jpg",
+  "action": "A person opens the refrigerator and slightly bows his head",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
 }

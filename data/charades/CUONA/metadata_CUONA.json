@@ -1,0 +1,17 @@
+{
+  "caption": "A man holding a broom stands in a living room near a table, picking up a box as a cat looks on. The TV is on in the background.",
+  "first_frame_second": 19,
+  "last_frame_second": 20,
+  "frame1_image": "CUONA_frame1.jpg",
+  "frame2_image": "CUONA_frame2.jpg",
+  "action": "A person picks up a box with their right hand while also moving the broom with their left hand. a cat turning its head to left.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
+}

@@ -1,7 +1,14 @@
 {
-  "caption": "A person who, after waking up, raises her hands to stretch her body",
+  "caption": "A woman sits up in bed in a softly lit bedroom. she fists both her hands and keeps them in front of her face.",
   "first_frame_second": 2.6,
   "last_frame_second": 3.9,
   "frame1_image": "DAA3F_frame1.jpg",
-  "frame2_image": "DAA3F_frame2.jpg"
+  "frame2_image": "DAA3F_frame2.jpg",
+  "action": "A person after waking up, raising their hands up to stretch their body while yawning.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
 }
