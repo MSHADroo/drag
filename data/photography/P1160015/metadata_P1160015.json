@@ -1,7 +1,12 @@
 {
-  "caption": "A laptop with its screen open and turned to the left",
-  "first_frame_second": "P1160015",
-  "last_frame_second": "P1160016",
-  "frame1_image": "P1160015_frame1.JPG",
-  "frame2_image": "P1160016_frame2.JPG"
+  "caption": "A black laptop with a blank screen is placed on a wooden desk, surrounded by green potted plants and dried wheat stalks in the background.",
+  "frame1_image": "P1160015_frame1.jpg",
+  "frame2_image": "P1160015_frame2.jpg",
+  "action": "A laptop with its door open and turned to the right.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation"
+  ]
 }

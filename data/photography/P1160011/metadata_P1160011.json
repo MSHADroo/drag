@@ -1,7 +1,12 @@
 {
-  "caption": "A banana with part of it separated",
-  "first_frame_second": "P1160011",
-  "last_frame_second": "P1160012",
-  "frame1_image": "P1160011_frame1.JPG",
-  "frame2_image": "P1160012_frame2.JPG"
+  "caption": "A ripe banana with some dark spots is placed on a wooden surface, with decorative items and plants in the background.",
+  "frame1_image": "P1160011_frame1.jpg",
+  "frame2_image": "P1160011_frame2.jpg",
+  "action": "A banana that its tail is cutted.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "content removal"
+  ]
 }

@@ -1,7 +1,12 @@
 {
-  "caption": "A painting on the wall that is tilted",
-  "first_frame_second": "P1160019",
-  "last_frame_second": "P1160020",
-  "frame1_image": "P1160019_frame1.JPG",
-  "frame2_image": "P1160020_frame2.JPG"
+  "caption": "A wall-mounted frame containing three square photographs, each depicting close-up scenes of autumn leaves in soft, warm tones. The photos are bordered by a wide beige mat inside a dark wooden frame, hanging against a plain white wall.",
+  "frame1_image": "P1160019_frame1.jpg",
+  "frame2_image": "P1160019_frame2.jpg",
+  "action": "A painting on the wall that is tilted.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation"
+  ]
 }
