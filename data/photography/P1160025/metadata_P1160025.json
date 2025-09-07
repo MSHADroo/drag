@@ -1,7 +1,13 @@
 {
-  "caption": "A dishwasher faucet that is open and water is flowing out of the faucet.",
-  "first_frame_second": "P1160025",
-  "last_frame_second": "P1160026",
-  "frame1_image": "P1160025_frame1.JPG",
-  "frame2_image": "P1160026_frame2.JPG"
+  "caption": "This image shows a close-up of a shiny, metallic kitchen faucet with a single lever handle, set against a tiled backsplash. The faucet appears clean and is mounted on a countertop or sink.",
+  "frame1_image": "P1160025_frame1.jpg",
+  "frame2_image": "P1160025_frame2.jpg",
+  "action": "A dishwasher faucet that is open and water is flowing out of the faucet.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation",
+    "content creation"
+  ]
 }

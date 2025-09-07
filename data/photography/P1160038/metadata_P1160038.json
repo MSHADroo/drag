@@ -1,7 +1,12 @@
 {
-  "caption": "A clock with its hands set from 8:20 to 8:15.",
-  "first_frame_second": "P1160038",
-  "last_frame_second": "P1160035",
-  "frame1_image": "P1160038_frame1.JPG",
-  "frame2_image": "P1160035_frame2.JPG"
+  "caption": "A decorative wall clock with a modern, artistic design featuring numerous black and silver circular accents radiating outward from the clock face. The current time displayed on the clock is 8:20:00.",
+  "frame1_image": "P1160038_frame1.jpg",
+  "frame2_image": "P1160038_frame2.jpg",
+  "action": "A clock with its minute hand set from 8:20 to 8:15.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation"
+  ]
 }

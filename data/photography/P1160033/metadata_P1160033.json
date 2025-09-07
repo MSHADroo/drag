@@ -1,7 +1,12 @@
 {
-  "caption": "A picture frame that has been moved onto the wall and mounted on the lower part of the wall.",
-  "first_frame_second": "P1160033",
-  "last_frame_second": "P1160034",
-  "frame1_image": "P1160033_frame1.JPG",
-  "frame2_image": "P1160034_frame2.JPG"
+  "caption": "A small, framed piece of decorative textile art is hung off-center and below a discolored patch and nail hole on a plain wall, near two light switches and an electrical outlet.",
+  "frame1_image": "P1160033_frame1.jpg",
+  "frame2_image": "P1160033_frame2.jpg",
+  "action": "A picture frame that has been moved upward on the wall and mounted on the upper part of the wall.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "relocation"
+  ]
 }

@@ -1,7 +1,12 @@
 {
-  "caption": "A clock with its hands set from 8:15 to 12 o'clock.",
-  "first_frame_second": "P1160035",
-  "last_frame_second": "P1160037",
-  "frame1_image": "P1160035_frame1.JPG",
-  "frame2_image": "P1160037_frame2.JPG"
+  "caption": "A decorative wall clock with a circular design, featuring black and silver embellishments radiating from the center like sun rays. The clock shows the time as 8:15:00.",
+  "frame1_image": "P1160035_frame1.jpg",
+  "frame2_image": "P1160035_frame2.jpg",
+  "action": "A clock with its hands set from 8:15 to 12 o'clock.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation"
+  ]
 }
