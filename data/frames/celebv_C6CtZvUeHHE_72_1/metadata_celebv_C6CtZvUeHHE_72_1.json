@@ -1,0 +1,14 @@
+{
+  "caption": "A woman with red hair and a nose ring, dressed in a gray shirt, is sitting casually, looking up and to the right with a slight smile.",
+  "first_frame_second": 9,
+  "second_frame_second": 31,
+  "frame1_image": "celebv_C6CtZvUeHHE_72_1_frame1.jpg",
+  "frame2_image": "celebv_C6CtZvUeHHE_72_1_frame2.jpg",
+  "action": "a woman that rotate her head to left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation"
+  ]
+}

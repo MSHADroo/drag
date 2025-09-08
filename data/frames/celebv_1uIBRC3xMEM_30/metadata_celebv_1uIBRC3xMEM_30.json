@@ -1,0 +1,14 @@
+{
+  "caption": "A black and white image shows a man in a collared shirt, appearing thoughtful and engaged as he gestures during an interview.",
+  "first_frame_second": 7,
+  "second_frame_second": 26,
+  "frame1_image": "celebv_1uIBRC3xMEM_30_frame1.jpg",
+  "frame2_image": "celebv_1uIBRC3xMEM_30_frame2.jpg",
+  "action": "A man with his head turned to his right.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}
