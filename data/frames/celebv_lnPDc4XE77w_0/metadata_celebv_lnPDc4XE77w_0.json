@@ -1,0 +1,15 @@
+{
+  "caption": "A woman in a hospital setting, dressed professionally, speaking urgently on a cell phone, with a backdrop of medical signage and bright hospital lighting.",
+  "first_frame_second": 85,
+  "second_frame_second": 78,
+  "frame1_image": "celebv_lnPDc4XE77w_0_frame1.jpg",
+  "frame2_image": "celebv_lnPDc4XE77w_0_frame2.jpg",
+  "action": "A woman opens her mouth to shout into a cell phone.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "caption": "A man in a brown suit and green tie seated in front of a blurred cityscape backdrop, appearing professional and composed as if delivering news on a broadcast. His confident demeanor suggests he is likely a news anchor or reporter.",
+  "first_frame_second": 3,
+  "second_frame_second": 32,
+  "frame1_image": "celebv_oH7m9HaCO8k_13_0_frame1.jpg",
+  "frame2_image": "celebv_oH7m9HaCO8k_13_0_frame2.jpg",
+  "action": "a man that move his head upward and looks directly at the camera.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}

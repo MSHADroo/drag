@@ -1,0 +1,15 @@
+{
+  "caption": "A young boy with a shaved head, his face and scalp covered in mud, emerging from the ground with a distressed and worried expression, set against a blurred outdoor background with greenery.",
+  "first_frame_second": 47,
+  "second_frame_second": 67,
+  "frame1_image": "celebv_Uy738YChyV8_1_frame1.jpg",
+  "frame2_image": "celebv_Uy738YChyV8_1_frame2.jpg",
+  "action": "a child with a shaved head in the mud that turn his head to left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "content removal"
+  ]
+}

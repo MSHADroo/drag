@@ -1,0 +1,14 @@
+{
+  "caption": "A man in a dark suit and a baseball cap with a star emblem, speaking with a serious expression in a softly lit, professional indoor setting. The shot is a close-up, focusing on his face and upper body with a blurred, neutral background.",
+  "first_frame_second": 64,
+  "second_frame_second": 101,
+  "frame1_image": "celebv_ljrdxgsfdug_2_frame1.jpg",
+  "frame2_image": "celebv_ljrdxgsfdug_2_frame2.jpg",
+  "action": "a man that rotate his face and looks to right.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "caption": "A young woman with long brown hair and blue eyes, wearing a black top and seated in front of a laptop, speaking directly to the camera against a plain white background in a well-lit indoor setting.",
+  "first_frame_second": 173,
+  "second_frame_second": 181,
+  "frame1_image": "celebv_sL9p_BE8t1s_0_0_frame1.jpg",
+  "frame2_image": "celebv_sL9p_BE8t1s_0_0_frame2.jpg",
+  "action": "A woman laughing and raising her eyebrows",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
+}
