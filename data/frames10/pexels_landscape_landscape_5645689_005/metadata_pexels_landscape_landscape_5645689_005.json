@@ -1,0 +1,15 @@
+{
+  "caption": "A man wearing a blue shirt and carrying a black backpack stands on a grassy hill, pointing towards the sky, surrounded by lush greenery and trees.",
+  "first_frame_second": 63,
+  "second_frame_second": 47,
+  "frame1_image": "pexels_landscape_landscape_5645689_005_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5645689_005_frame2.jpg",
+  "action": "a man who is moving his hands towards both sides.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "content removal"
+  ]
+}

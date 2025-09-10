@@ -1,0 +1,14 @@
+{
+  "caption": "A solitary person in a gray hoodie and black pants stands on the edge of a rocky cliff, overlooking an expansive landscape of lush green mountains beneath a clear blue sky.",
+  "first_frame_second": 0,
+  "second_frame_second": 40,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_5203176_005_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_5203176_005_frame2.jpg",
+  "action": "a person walking on a rock.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

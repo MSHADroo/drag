@@ -1,0 +1,14 @@
+{
+  "caption": "A young boy stands on a rocky cliff overlooking the deep blue ocean; the rugged rocks and the expansive sea highlight the grandeur and tranquility of nature.",
+  "first_frame_second": 0,
+  "second_frame_second": 60,
+  "frame1_image": "pexels_landscape_landscape_5658150_012_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5658150_012_frame2.jpg",
+  "action": "a boy walking forward on a rock.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

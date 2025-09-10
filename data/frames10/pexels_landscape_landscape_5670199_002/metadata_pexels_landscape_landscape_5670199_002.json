@@ -1,0 +1,14 @@
+{
+  "caption": "A man dressed casually in a gray shirt and black shorts stands on a balcony overlooking a stunning coastal view of the ocean and distant mountains, holding a remote control as he enjoys the serene scenery under a bright blue sky with scattered clouds. The balcony, with its black railing and stone pillar, offers an unobstructed panorama, while a drone hovers in the air above the picturesque landscape.",
+  "first_frame_second": 32,
+  "second_frame_second": 45,
+  "frame1_image": "pexels_landscape_landscape_5670199_002_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5670199_002_frame2.jpg",
+  "action": "A quadcopter flies downward.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}

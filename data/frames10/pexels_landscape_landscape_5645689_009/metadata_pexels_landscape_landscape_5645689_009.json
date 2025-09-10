@@ -1,0 +1,14 @@
+{
+  "caption": "A man wearing a blue shirt and a backpack stands on a dirt path in a lush, green landscape with his arms outstretched, surrounded by vibrant trees and bushes, while a hill rises in the background.",
+  "first_frame_second": 0,
+  "second_frame_second": 9,
+  "frame1_image": "pexels_landscape_landscape_5645689_009_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5645689_009_frame2.jpg",
+  "action": "A man stands on a hill, moving his hands in front of his face downwards.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation"
+  ]
+}

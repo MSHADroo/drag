@@ -1,0 +1,15 @@
+{
+  "caption": "A solitary person in a white shirt and shorts stands contemplatively at the edge of a reddish-brown rocky cliff, gazing out over the vast, deep blue ocean under a clear, serene sky. The dramatic contrast between the rugged rocks and the expansive seascape highlights a sense of adventure and tranquility.",
+  "first_frame_second": 13,
+  "second_frame_second": 23,
+  "frame1_image": "pexels_landscape_landscape_5708309_001_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5708309_001_frame2.jpg",
+  "action": "a man walking on a rock by the ocean",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}
