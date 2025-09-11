@@ -1,0 +1,14 @@
+{
+  "caption": "A young woman in a gray jumpsuit stands in a vast field of tall grass, holding a camera, with distant mountains and a clear blue sky providing a tranquil and expansive backdrop.",
+  "first_frame_second": 20,
+  "second_frame_second": 0,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_5220296_021_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_5220296_021_frame2.jpg",
+  "action": "a woman standing in a field rise up her camera",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation"
+  ]
+}

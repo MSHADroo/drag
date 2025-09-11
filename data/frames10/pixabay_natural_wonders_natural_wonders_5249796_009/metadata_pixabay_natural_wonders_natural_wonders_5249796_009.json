@@ -1,0 +1,14 @@
+{
+  "caption": "A solitary seagull stands on a pebble beach at sunset, beside waves of the ocean beneath a sky painted with soft hues of orange and pink. The peaceful scene is bathed in a warm glow from the partially hidden sun, evoking a sense of quiet solitude and natural beauty.",
+  "first_frame_second": 22,
+  "second_frame_second": 27,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_5249796_009_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_5249796_009_frame2.jpg",
+  "action": "seagull sitting on a rocky beach at sunset and turn its head to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

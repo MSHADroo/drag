@@ -1,0 +1,14 @@
+{
+  "caption": "An orange sky with two white clouds positioned near the top left and right corners, and small white stars scattered evenly across the background.",
+  "first_frame_second": 33,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Star_Gazing_145038_002_frame1.jpg",
+  "frame2_image": "pixabay_Star_Gazing_145038_002_frame2.jpg",
+  "action": "Two cartoon clouds that moving away from each other.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}

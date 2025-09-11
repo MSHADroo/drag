@@ -1,0 +1,14 @@
+{
+  "caption": "A luminous full moon, detailed with shades of white, gray, blue, and brown, dominates the center of a star-studded cosmic backdrop, highlighting the immense beauty and depth of the universe. The surrounding stars and vast darkness emphasize the moon's prominence as the captivating focal point of the scene.",
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Star_Gazing_188454_005_frame1.jpg",
+  "frame2_image": "pixabay_Star_Gazing_188454_005_frame2.jpg",
+  "action": "a moon that moves to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}

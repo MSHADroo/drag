@@ -1,0 +1,14 @@
+{
+  "caption": "A lone figure dressed in a gray hoodie and black pants stands on a rocky cliff, gazing out over a sweeping vista of lush green mountains under a clear blue sky.",
+  "first_frame_second": 3,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_5203176_007_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_5203176_007_frame2.jpg",
+  "action": "a person standing on a rock with their arms outstretched",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation"
+  ]
+}
