@@ -1,29 +1,6 @@
-import argparse
-
 import lpips
 import numpy as np
 from PIL import Image
-
-parser = argparse.ArgumentParser(description="Editable Patch Similarity")
-parser.add_argument(
-    "--generated_image", type=str, required=True, help="Path to the generated image"
-)
-parser.add_argument(
-    "--input_image", type=str, required=True, help="Path to the input image"
-)
-parser.add_argument(
-    "--ground_truth_image",
-    type=str,
-    required=True,
-    help="Path to the ground truth image",
-)
-parser.add_argument("--mask", type=str, required=True, help="Path to the mask array")
-args = parser.parse_args()
-
-generated_image_path = args.generated_image
-input_image_path = args.input_image
-ground_truth_image_path = args.ground_truth_image
-mask_path = args.mask
 
 
 def compute_editable_patch_similarity(
@@ -51,12 +28,3 @@ def compute_editable_patch_similarity(
     similarity_generated = loss_fn(unmasked_generated, unmasked_ground_truth).item()
     similarity_input = loss_fn(unmasked_input, unmasked_ground_truth).item()
     return round(similarity_generated / similarity_input, 6)
-
-
-if __name__ == "__main__":
-    editable_patch_similarity = compute_editable_patch_similarity(
-        generated_image_path, input_image_path, ground_truth_image_path, mask_path
-    )
-    print(
-        f"Editable Patch Similarity (Generated vs Ground Truth): {editable_patch_similarity}"
-    )
