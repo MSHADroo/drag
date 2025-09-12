@@ -3,3 +3,4 @@
 .DS_Store
 .idea
 play.ipynb
+__pycache__/
