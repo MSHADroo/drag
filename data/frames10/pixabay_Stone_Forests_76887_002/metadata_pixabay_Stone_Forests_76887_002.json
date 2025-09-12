@@ -1,0 +1,17 @@
+{
+  "caption": "A family of four sits on a bench in a lush forest, with the parents smiling warmly while their the bigger brother looking at smaller one, creating a peaceful and joyful scene surrounded by greenery.",
+  "first_frame_second": 25,
+  "second_frame_second": 41,
+  "frame1_image": "pixabay_Stone_Forests_76887_002_frame1.jpg",
+  "frame2_image": "pixabay_Stone_Forests_76887_002_frame2.jpg",
+  "action": "A child holds another child's face with his right hand and his parents look at his hand. the smaller child closes his eyes.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "relocation",
+    "content removal",
+    "content creation"
+  ]
+}

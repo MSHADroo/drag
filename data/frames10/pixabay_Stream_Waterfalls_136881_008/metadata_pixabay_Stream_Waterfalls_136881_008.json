@@ -1,0 +1,16 @@
+{
+  "caption": "A solitary white egret stands at the water edge and looking to left, reflected in the calm, green-speckled surface surrounded by lush vegetation.",
+  "first_frame_second": 0,
+  "second_frame_second": 8,
+  "frame1_image": "pixabay_Stream_Waterfalls_136881_008_frame1.jpg",
+  "frame2_image": "pixabay_Stream_Waterfalls_136881_008_frame2.jpg",
+  "action": "a white bird standing in water and rise its head and rotates its body to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "relocation",
+    "content creation"
+  ]
+}

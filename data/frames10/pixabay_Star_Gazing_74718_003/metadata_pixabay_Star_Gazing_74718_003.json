@@ -1,0 +1,14 @@
+{
+  "caption": "In a warmly lit room, Santa Claus, dressed in his classic red and white suit, sits at a wooden desk adorned with festive decorations, including a small Christmas tree and a blue ribbon, as soft light filters through a pink curtain behind him, creating a cozy holiday atmosphere.",
+  "first_frame_second": 53,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Star_Gazing_74718_003_frame1.jpg",
+  "frame2_image": "pixabay_Star_Gazing_74718_003_frame2.jpg",
+  "action": "santa claus rises his head and hands.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}

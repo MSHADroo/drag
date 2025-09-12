@@ -1,0 +1,14 @@
+{
+  "caption": "A vibrant pink foxglove flower in full bloom is the centerpiece of this tranquil nature scene, with a bee captured in mid-flight nearby, both sharply focused against a softly blurred green background.",
+  "first_frame_second": 10,
+  "second_frame_second": 54,
+  "frame1_image": "pixabay_Summer_Beaches_132927_013_frame1.jpg",
+  "frame2_image": "pixabay_Summer_Beaches_132927_013_frame2.jpg",
+  "action": "A bee approaching a pink flower and moves to left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
+}

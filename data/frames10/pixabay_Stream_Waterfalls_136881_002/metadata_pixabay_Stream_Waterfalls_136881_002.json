@@ -1,0 +1,14 @@
+{
+  "caption": "A solitary white egret stands gracefully in the center of a murky green body of water, surrounded by patches of green vegetation that accentuate its striking white plumage and elegant form.",
+  "first_frame_second": 0,
+  "second_frame_second": 10,
+  "frame1_image": "pixabay_Stream_Waterfalls_136881_002_frame1.jpg",
+  "frame2_image": "pixabay_Stream_Waterfalls_136881_002_frame2.jpg",
+  "action": "a white bird walking in the water and moves forward.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "caption": "A majestic brown bear rests serenely on a large gray rock in the midst of a lush, green forest, its head lying gently on its front paws. The tranquil scene is framed by vibrant green and yellow foliage.",
+  "first_frame_second": 63,
+  "second_frame_second": 0,
+  "frame1_image": "pixabay_Stone_Forests_103362_000_frame1.jpg",
+  "frame2_image": "pixabay_Stone_Forests_103362_000_frame2.jpg",
+  "action": "a brown bear turns its head to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content removal",
+    "content creation"
+  ]
+}

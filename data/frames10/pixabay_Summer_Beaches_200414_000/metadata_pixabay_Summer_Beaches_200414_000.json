@@ -1,0 +1,14 @@
+{
+  "caption": "A solitary seagull with white plumage and black beak and feet stands on a sandy beach, surrounded by scattered rocks and seaweed, that evokes a calm, sunny day.",
+  "first_frame_second": 29,
+  "second_frame_second": 20,
+  "frame1_image": "pixabay_Summer_Beaches_200414_000_frame1.jpg",
+  "frame2_image": "pixabay_Summer_Beaches_200414_000_frame2.jpg",
+  "action": "a bird at the beach that buries its head in its feathers.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

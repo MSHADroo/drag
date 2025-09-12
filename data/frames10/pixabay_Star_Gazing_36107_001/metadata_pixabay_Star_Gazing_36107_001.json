@@ -1,0 +1,14 @@
+{
+  "caption": "Against a deep black background, a glowing blue crescent moon outlined in vibrant light curves gracefully beside a radiant, solid blue star on its right, creating a strikingly minimal and harmonious night sky composition.",
+  "first_frame_second": 25,
+  "second_frame_second": 43,
+  "frame1_image": "pixabay_Star_Gazing_36107_001_frame1.jpg",
+  "frame2_image": "pixabay_Star_Gazing_36107_001_frame2.jpg",
+  "action": "A blue star rotates to left.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

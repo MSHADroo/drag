@@ -1,0 +1,15 @@
+{
+  "caption": "Two pink flamingos stand out against lush green foliage. one stands tall and alert, while the other bends gracefully to drink from the water.",
+  "first_frame_second": 18,
+  "second_frame_second": 43,
+  "frame1_image": "pixabay_Summer_Beaches_15922_003_frame1.jpg",
+  "frame2_image": "pixabay_Summer_Beaches_15922_003_frame2.jpg",
+  "action": "two flamingos standing in the water and move their legs to right.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation",
+    "rotation"
+  ]
+}
