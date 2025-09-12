@@ -1,23 +1,34 @@
-from transformers import (
-    CLIPTokenizer,
-    CLIPTextModelWithProjection,
-    CLIPVisionModelWithProjection,
-    CLIPImageProcessor,
-)
+import argparse
+
 import torch.nn as nn
 import torch.nn.functional as F
 from PIL import Image
+from transformers import (
+    CLIPImageProcessor,
+    CLIPTextModelWithProjection,
+    CLIPTokenizer,
+    CLIPVisionModelWithProjection,
+)
 
+parser = argparse.ArgumentParser(description="CLIP Directional Similarity")
+parser.add_argument(
+    "--generated_image", type=str, required=True, help="Path to the generated image"
+)
+parser.add_argument(
+    "--input_image", type=str, required=True, help="Path to the input image"
+)
+parser.add_argument("--drag_prompt", type=str, required=True, help="Drag prompt text")
+args = parser.parse_args()
 
 clip_id = "openai/clip-vit-large-patch14"
-device = "cuda"  # or "cpu"
+device = "cuda"
 tokenizer = CLIPTokenizer.from_pretrained(clip_id)
 text_encoder = CLIPTextModelWithProjection.from_pretrained(clip_id).to(device)
 image_processor = CLIPImageProcessor.from_pretrained(clip_id)
 image_encoder = CLIPVisionModelWithProjection.from_pretrained(clip_id).to(device)
-generated_image_path = "path/to/generated/image.png"
-input_image_path = "path/to/input/image.png"
-drag_prompt = "Please drag the image to the designated area."
+generated_image_path = args.generated_image
+input_image_path = args.input_image
+drag_prompt = args.drag_prompt
 
 
 class DirectionalSimilarity(nn.Module):
@@ -72,9 +83,17 @@ dir_similarity = DirectionalSimilarity(
     tokenizer, text_encoder, image_processor, image_encoder
 )
 
-original_image = Image.open(input_image_path).convert("RGB")
-generated_image = Image.open(generated_image_path).convert("RGB")
 
-similarity_score = dir_similarity(original_image, generated_image, drag_prompt)
+def compute_clip_directional_similarity(original_image_path, generated_image_path, drag_prompt):
+    original_image = Image.open(original_image_path).convert("RGB")
+    generated_image = Image.open(generated_image_path).convert("RGB")
 
-print(f"CLIP directional similarity: {similarity_score}")
+    similarity_score = dir_similarity(original_image, generated_image, drag_prompt)
+    return similarity_score.item()
+
+
+if __name__ == "__main__":
+    similarity_score = compute_clip_directional_similarity(
+        input_image_path, generated_image_path, drag_prompt
+    )
+    print(f"CLIP directional similarity: {similarity_score}")
