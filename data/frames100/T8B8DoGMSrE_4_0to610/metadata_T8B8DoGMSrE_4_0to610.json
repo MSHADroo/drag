@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 58,
+  "second_frame_second": 30,
+  "frame1_image": "T8B8DoGMSrE_4_0to610_frame1.jpg",
+  "frame2_image": "T8B8DoGMSrE_4_0to610_frame2.jpg",
+  "action": "A man turns his head to left.",
+  "caption": "A man with a beard and short hair, dressed in a blue shirt and gray blazer, is seated in a studio with a blue background, a couch, and a plant visible behind him. The screen displays a text overlay with an application link to \"launchcode.org/codecamp,\" suggesting this is a promotional or informational video for a coding program.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content removal"
+  ]
+}

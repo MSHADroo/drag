@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 2,
+  "second_frame_second": 12,
+  "frame1_image": "TFF96EIsA4M_34_42to152_frame1.jpg",
+  "frame2_image": "TFF96EIsA4M_34_42to152_frame2.jpg",
+  "action": "A man rising his hands up.",
+  "caption": "A bearded man in a straw hat and black shirt stands outdoors at a table, preparing meat with a knife on a wooden cutting board, surrounded by a bottle of beer, a potted plant, and barbecue items, with a rustic background of trees, a brick building, and hay.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}

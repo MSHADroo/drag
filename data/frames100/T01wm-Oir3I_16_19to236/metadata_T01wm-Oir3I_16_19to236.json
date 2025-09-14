@@ -1,0 +1,15 @@
+{
+  "caption": "A woman wearing a green and white striped shirt with an orange apron is preparing a dish in a modern kitchen equipped with stainless steel appliances, as she stands at the counter with various ingredients and utensils laid out, demonstrating a cooking tutorial.",
+  "first_frame_second": 25,
+  "second_frame_second": 35,
+  "frame1_image": "T01wm-Oir3I_16_19to236_frame1.jpg",
+  "frame2_image": "T01wm-Oir3I_16_19to236_frame2.jpg",
+  "action": "A woman stretches her right arm out to the side while lowering her left arm.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}

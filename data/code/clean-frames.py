@@ -11,7 +11,7 @@ import numpy as np
 import os
 import csv
 
-folder_path = "data/frames10"
+folder_path = "data/frames100"
 metis_api_key = "tpsg-zeyJfijuje7IihgoeCTXOkIBl2LThjQ"
 
 
@@ -41,6 +41,8 @@ for sample_name in os.listdir(folder_path):
                 break
         if not complete_sample:
             break
+else:
+    assert False, "All samples are complete"
 
 initial_data = find_value("data/code/OpenVid-1M.csv", sample_name)
 content = f"describe this image in one or two sentences. initial data: {initial_data}"
@@ -94,7 +96,7 @@ response = client.chat.completions.create(
     model="gpt-4.1", messages=messages, max_tokens=100
 )
 caption = response.choices[0].message.content
-current_data["action"] = current_data["caption"]
+current_data["action"] = current_data.get("caption")
 current_data["caption"] = caption
 current_data["categories"] = ["real", "indoor", "object", "rotation"]
 # create tracks file
