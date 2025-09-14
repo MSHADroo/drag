@@ -1,0 +1,14 @@
+{
+  "caption": "A brown and white boat glides across calm, deep blue waters at sunset and distant mountains silhouetted against a warm, glowing sky filled with dramatic clouds.",
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_tropical_beaches_videos_51223_006_frame1.jpg",
+  "frame2_image": "pixabay_tropical_beaches_videos_51223_006_frame2.jpg",
+  "action": "a boat that is sailing in the water",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}

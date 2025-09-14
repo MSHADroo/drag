@@ -1,0 +1,15 @@
+{
+  "caption": "A vibrant stream of orange juice is being poured into a clear glass set on a wooden surface, with a blurred background.",
+  "first_frame_second": 3,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_tropical_beaches_videos_62083_001_frame1.jpg",
+  "frame2_image": "pixabay_tropical_beaches_videos_62083_001_frame2.jpg",
+  "action": "a glass of orange juice being filled.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "relocation",
+    "content creation"
+  ]
+}

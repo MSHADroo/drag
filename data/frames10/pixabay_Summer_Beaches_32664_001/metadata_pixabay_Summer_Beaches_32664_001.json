@@ -1,0 +1,14 @@
+{
+  "caption": "An aerial image captures a sunlit section of a coastal city, showing a row of palm trees casting long shadows along a waterfront promenade, with parked cars and buildings lining a neatly organized street beside clear, green-tinged water.",
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Summer_Beaches_32664_001_frame1.jpg",
+  "frame2_image": "pixabay_Summer_Beaches_32664_001_frame2.jpg",
+  "action": "a person walking on the sidewalk.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

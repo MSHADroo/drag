@@ -1,0 +1,15 @@
+{
+  "caption": "Four brown pelicans stand quietly on rocks in shallow water, surrounded by lush green foliage, each bird in a different pose; one with wings spread, another resting, and others looking around.",
+  "first_frame_second": 42,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_tropical_beaches_videos_34569_015_frame1.jpg",
+  "frame2_image": "pixabay_tropical_beaches_videos_34569_015_frame2.jpg",
+  "action": "a pelican turns its head to the left.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content creation"
+  ]
+}

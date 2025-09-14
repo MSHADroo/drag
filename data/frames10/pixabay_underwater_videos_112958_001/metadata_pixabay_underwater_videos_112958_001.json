@@ -1,0 +1,15 @@
+{
+  "caption": "A 3D-rendered, gray, cylindrical alien-like creature with a large single eye, sharp teeth, and two black antennae stands on two legs against a blue background.",
+  "first_frame_second": 10,
+  "second_frame_second": 40,
+  "frame1_image": "pixabay_underwater_videos_112958_001_frame1.jpg",
+  "frame2_image": "pixabay_underwater_videos_112958_001_frame2.jpg",
+  "action": "a cartoon character that moves its eye to the left and closes its mouth slightly.",
+  "categories": [
+    "animated",
+    "indoor",
+    "object",
+    "rotation",
+    "content removal"
+  ]
+}

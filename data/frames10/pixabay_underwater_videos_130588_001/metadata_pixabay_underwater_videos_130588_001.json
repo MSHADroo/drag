@@ -1,0 +1,15 @@
+{
+  "caption": "A cheerful blue octopus wearing a festive red Santa hat is joyfully resting in the center of a vibrant purple background, with its four tentacles spread out and a wide smile on its face. The scene exudes a playful holiday spirit, with the octopus perfectly centered as the sole focus.",
+  "first_frame_second": 2,
+  "second_frame_second": 6,
+  "frame1_image": "pixabay_underwater_videos_130588_001_frame1.jpg",
+  "frame2_image": "pixabay_underwater_videos_130588_001_frame2.jpg",
+  "action": "a blue cartoon octopus stretching its legs.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "animal",
+    "rotation",
+    "relocation"
+  ]
+}
