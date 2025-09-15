@@ -758,11 +758,11 @@ class ImageSelectionWindow(QMainWindow):
         for entry in os.listdir(root_dir):
             full_path = os.path.join(root_dir, entry)
             if os.path.isdir(full_path):
-                image_count = 0
-                for file_name in os.listdir(full_path):
-                    if any(file_name.lower().endswith(ext) for ext in IMAGE_EXTENSIONS):
-                        image_count += 1
-                
+                files = os.listdir(full_path)
+                # Skip if any .json file exists in the directory
+                if any(file_name.lower().endswith('.json') for file_name in files):
+                    continue
+                image_count = sum(1 for file_name in files if any(file_name.lower().endswith(ext) for ext in IMAGE_EXTENSIONS))
                 if image_count > 1:
                     thumbnail_widget = ImageThumbnailWidget(full_path)
                     thumbnail_widget.folder_selected.connect(self.select_folder) 
