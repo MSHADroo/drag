@@ -70,10 +70,16 @@ dir_similarity = DirectionalSimilarity(
 
 
 def compute_clip_directional_similarity(
-    original_image_path, generated_image_path, drag_prompt
+    original_image_path, ground_truth_path, generated_image_path, drag_prompt
 ):
     original_image = Image.open(original_image_path).convert("RGB")
     generated_image = Image.open(generated_image_path).convert("RGB")
+    ground_truth = Image.open(ground_truth_path).convert("RGB")
 
-    similarity_score = dir_similarity(original_image, generated_image, drag_prompt)
-    return similarity_score.item()
+    original_generated_similarity = dir_similarity(
+        original_image, generated_image, drag_prompt
+    ).item()
+    original_ground_truth_similarity = dir_similarity(
+        original_image, ground_truth, drag_prompt
+    ).item()
+    return round(original_generated_similarity / original_ground_truth_similarity, 6)
