@@ -1,0 +1,14 @@
+{
+  "caption": "A man in a black shirt is speaking and gesturing with his hands in a room. he stands in front of a white wall featuring a mirror, with a counter and decor visible in the background, creating a casual and friendly atmosphere.",
+  "first_frame_second": 5,
+  "second_frame_second": 11,
+  "frame1_image": "_r1CBW91qUs_168_0to140_frame1.jpg",
+  "frame2_image": "_r1CBW91qUs_168_0to140_frame2.jpg",
+  "action": "A man lowers his hands.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation"
+  ]
+}
