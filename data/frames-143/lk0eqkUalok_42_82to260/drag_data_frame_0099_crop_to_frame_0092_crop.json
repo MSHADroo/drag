@@ -1,0 +1,34 @@
+{
+    "frame1_image": "frame_0099_crop.jpg",
+    "frame2_image": "frame_0092_crop.jpg",
+    "mask_area": [
+        {
+            "x": 29,
+            "y": 232
+        },
+        {
+            "x": 358,
+            "y": 197
+        },
+        {
+            "x": 486,
+            "y": 830
+        },
+        {
+            "x": 23,
+            "y": 825
+        }
+    ],
+    "source_points": [
+        {
+            "x": 170,
+            "y": 623
+        }
+    ],
+    "target_points": [
+        {
+            "x": 152,
+            "y": 400
+        }
+    ]
+}
