@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 770,
+  "second_frame_second": 820,
+  "frame1_image": "TLLf1nsU8i0_1_0to913_frame1.jpg",
+  "frame2_image": "TLLf1nsU8i0_1_0to913_frame2.jpg",
+  "action": "man holding up a smartphone moves his left hand to right and lowers his head slightly.",
+  "caption": "A man in a denim shirt standing against a plain white background, holding up a black smartphone, as if demonstrating or presenting it.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}
