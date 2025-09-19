@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 20,
+  "frame1_image": "pixabay_World_Heritage_Sites_41371_022_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_41371_022_frame2.jpg",
+  "action": "a zebra turned to the left.",
+  "caption": "A 3D-rendered zebra stands on all fours against a solid green background, facing away from the viewer and slightly to the right, with its distinctive black and white stripes clearly visible.",
+  "categories": [
+    "animated",
+    "indoor",
+    "animal",
+    "rotation",
+    "content creation"
+  ]
+}

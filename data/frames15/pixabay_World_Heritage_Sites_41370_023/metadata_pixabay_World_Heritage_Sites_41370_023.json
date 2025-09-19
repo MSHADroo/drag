@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 3,
+  "second_frame_second": 35,
+  "frame1_image": "pixabay_World_Heritage_Sites_41370_023_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_41370_023_frame2.jpg",
+  "action": "A hippopotamus turned to right side.",
+  "caption": "A 3D-rendered hippopotamus with dark gray skin stands calmly on all fours, eyes gently closed and head slightly tilted, set against a vibrant green background.",
+  "categories": [
+    "animated",
+    "indoor",
+    "animal",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
+}

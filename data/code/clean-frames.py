@@ -11,7 +11,7 @@ import numpy as np
 import os
 import csv
 
-folder_path = "data/frames100"
+folder_path = "data/frames15"
 metis_api_key = "tpsg-zeyJfijuje7IihgoeCTXOkIBl2LThjQ"
 
 

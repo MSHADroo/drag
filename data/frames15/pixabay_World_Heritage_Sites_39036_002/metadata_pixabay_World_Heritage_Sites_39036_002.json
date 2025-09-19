@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 0,
+  "frame1_image": "pixabay_World_Heritage_Sites_39036_002_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_39036_002_frame2.jpg",
+  "action": "a globe rotated to left.",
+  "caption": "A 3D-rendered globe, with vibrant green continents and deep blue oceans, set against a stark black background.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "object",
+    "rotation",
+    "content removal",
+    "content creation"
+  ]
+}

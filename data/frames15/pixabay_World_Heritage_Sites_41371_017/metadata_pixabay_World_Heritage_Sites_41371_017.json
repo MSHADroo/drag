@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 20,
+  "second_frame_second": 30,
+  "frame1_image": "pixabay_World_Heritage_Sites_41371_017_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_41371_017_frame2.jpg",
+  "action": "a zebra rotated to right.",
+  "caption": "A 3D-rendered zebra, shown in profile and facing toward the right, standing against a vivid solid green background.",
+  "categories": [
+    "animated",
+    "indoor",
+    "animal",
+    "rotation",
+    "content removal"
+  ]
+}

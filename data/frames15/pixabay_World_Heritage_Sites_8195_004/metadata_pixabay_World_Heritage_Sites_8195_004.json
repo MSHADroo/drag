@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 60,
+  "frame1_image": "pixabay_World_Heritage_Sites_8195_004_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_8195_004_frame2.jpg",
+  "action": "a moon rotated to right.",
+  "caption": "A striking image of the moon dominates the center of a star-filled black sky, its surface detailed with light and dark gray patches, craters, and valleys.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}
