@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 28,
+  "second_frame_second": 37,
+  "frame1_image": "pixabay_autumn_leaves_videos_11255_003_frame1.jpg",
+  "frame2_image": "pixabay_autumn_leaves_videos_11255_003_frame2.jpg",
+  "action": "a right sholace is rotated clockwise.",
+  "caption": "A pair of polished dark brown leather shoes stands out against a rain-soaked black rubber mat scattered with wet leaves, capturing a tranquil moment of solitude on a monochrome sidewalk.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

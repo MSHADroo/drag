@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 60,
+  "frame1_image": "pixabay_World_Heritage_Sites_39047_000_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_39047_000_frame2.jpg",
+  "action": "a chimpanzee rotated to right.",
+  "caption": "A realistic 3D rendering of a chimpanzee seated on its hind legs, facing left, with its arms crossed over its chest, set against a plain green background.",
+  "categories": [
+    "animated",
+    "indoor",
+    "animal",
+    "rotation",
+    "content removal"
+  ]
+}

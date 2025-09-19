@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 20,
+  "second_frame_second": 63,
+  "frame1_image": "pexels_landscape_landscape_4972236_019_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_4972236_019_frame2.jpg",
+  "action": "A woman bend her neck to right to lean her head on shoulder of a man; while the man puts his left arm around her waist.",
+  "caption": "A couple sits closely embraced on a rooftop, gazing at the cityscape in front of them; the tranquil scene, framed by urban buildings and a clear sky, captures a quiet moment of togetherness amidst city life.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}

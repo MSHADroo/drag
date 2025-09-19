@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_3140211_000_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_3140211_000_frame2.jpg",
+  "action": "a lawn mower cuts the grasswhile moving forward to the right.",
+  "caption": "A large, vibrant green area bordered by a mix of sandy beach and rugged terrain, with a small lawn mower and a driver visible in the middle left, creating a harmonious blend of natural beauty and subtle human presence.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation",
+    "content removal"
+  ]
+}

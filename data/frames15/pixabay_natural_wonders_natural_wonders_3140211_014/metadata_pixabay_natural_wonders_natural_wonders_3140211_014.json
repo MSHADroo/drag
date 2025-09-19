@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_3140211_014_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_3140211_014_frame2.jpg",
+  "action": "a lawn mower cuts the grasswhile moving forward to the left.",
+  "caption": "A tranquil landscape dominated by a large, vibrant green body of water surrounded by grassy terrain, with a small, patchwork island at the center, a sandy beach to the right, and an overall serene, untouched atmosphere.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation",
+    "content removal"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 11,
+  "second_frame_second": 36,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_3440883_006_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_3440883_006_frame2.jpg",
+  "action": "A seagull moves forward one step.",
+  "caption": "A solitary seagull stands on the sandy beach near the shoreline, its white and black plumage contrasting with the foamy waves and expansive ocean backdrop, capturing a serene moment of solitude by the sea.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
+}

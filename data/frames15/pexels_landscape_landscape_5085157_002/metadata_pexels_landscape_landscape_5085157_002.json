@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 30,
+  "frame1_image": "pexels_landscape_landscape_5085157_002_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5085157_002_frame2.jpg",
+  "action": "a man, little boy and a woman walk to the left.",
+  "caption": "A family of three strolls along a leafy park path, with the father leading, the mother in a red and white checkered dress, and their child following close behind, all framed by tall trees and a tranquil natural setting. Fallen leaves on the ground and a distant bench add to the peaceful, autumnal atmosphere.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

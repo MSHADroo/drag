@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 53,
+  "second_frame_second": 63,
+  "frame1_image": "pexels_landscape_landscape_5027578_000_frame1.jpg",
+  "frame2_image": "pexels_landscape_landscape_5027578_000_frame2.jpg",
+  "action": "a boy walks forward.",
+  "caption": "a young boy wearing a backpack and shorts walking into a dirt road with trees on both sides.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation",
+    "content creation",
+    "content removal"
+  ]
+}

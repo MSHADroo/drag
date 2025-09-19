@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 23,
+  "second_frame_second": 33,
+  "frame1_image": "pixabay_natural_wonders_natural_wonders_3562083_002_frame1.jpg",
+  "frame2_image": "pixabay_natural_wonders_natural_wonders_3562083_002_frame2.jpg",
+  "action": "woman moves forward towards right side",
+  "caption": "A young woman in a black jacket, blue jeans, brown boots, and a white beanie balances on a fallen tree trunk in a tranquil woodland clearing.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}

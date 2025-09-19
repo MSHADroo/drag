@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 8,
+  "second_frame_second": 19,
+  "frame1_image": "pixabay_autumn_leaves_videos_134229_017_frame1.jpg",
+  "frame2_image": "pixabay_autumn_leaves_videos_134229_017_frame2.jpg",
+  "action": "a water drop that spreads out.",
+  "caption": "A single, vibrant yellow leaf with curled edges and small holes lies serenely on a bed of pebbles, its surface adorned with a glistening water droplet near the center, evoking a moment of quiet beauty in nature.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rescalation"
+  ]
+}
