@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Yellowstone_Park_117098_008_frame1.jpg",
+  "frame2_image": "pixabay_Yellowstone_Park_117098_008_frame2.jpg",
+  "action": "A carousel rotating clockwise.",
+  "caption": "A pristine white Ferris wheel adorned with colorful gondolas towers above lush green trees, set against a clear blue sky, creating a vibrant and harmonious amusement park scene viewed dramatically from below.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 63,
+  "frame1_image": "pixabay_Yellowstone_Park_118779_003_frame1.jpg",
+  "frame2_image": "pixabay_Yellowstone_Park_118779_003_frame2.jpg",
+  "action": "a duck leans forward slightly.",
+  "caption": "A Muscovy duck with striking black and white plumage and a vivid red face stands perched on the edge of a weathered wooden bench in a serene, sunlit park, surrounded by lush green grass and tall trees.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "relocation"
+  ]
+}
