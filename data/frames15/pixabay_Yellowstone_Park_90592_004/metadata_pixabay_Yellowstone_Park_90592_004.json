@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 24,
+  "second_frame_second": 30,
+  "frame1_image": "pixabay_Yellowstone_Park_90592_004_frame1.jpg",
+  "frame2_image": "pixabay_Yellowstone_Park_90592_004_frame2.jpg",
+  "action": "a deer closes its mouth.",
+  "caption": "A majestic deer with large, impressive antlers stands in a tranquil expanse of green grass, its head tilted slightly as if observing something in the distance.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

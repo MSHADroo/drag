@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 11,
+  "second_frame_second": 37,
+  "frame1_image": "pixabay_Yellowstone_Park_90724_004_frame1.jpg",
+  "frame2_image": "pixabay_Yellowstone_Park_90724_004_frame2.jpg",
+  "action": "A boar walks to the left and turns its head to right.",
+  "caption": "A wild boar with a rich brown coat walks along a winding dirt path bordered by lush green trees and bushes in the heart of a verdant forest.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation",
+    "relocation",
+    "content creation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 30,
+  "frame1_image": "pixabay_seascapes_videos_59419_001_frame1.jpg",
+  "frame2_image": "pixabay_seascapes_videos_59419_001_frame2.jpg",
+  "action": "A boat moves forward toward the right.",
+  "caption": "An aerial view of a tranquil tropical beach lined with white sand and clear blue water, nestled at the base of a lush, green mountain and dotted with a few red-roofed buildings near the shore. A handful of boats are gently anchored offshore, completing the idyllic and picturesque coastal scene.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}

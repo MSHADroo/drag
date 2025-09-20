@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 40,
+  "frame1_image": "pixabay_seascapes_videos_53971_004_frame1.jpg",
+  "frame2_image": "pixabay_seascapes_videos_53971_004_frame2.jpg",
+  "action": "A surfer walks to right.",
+  "caption": "A surfer in a black wetsuit walks along a quiet, sandy beach carrying a white surfboard towards the calm blue sea, with green hills in the distance and a clear sky overhead.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

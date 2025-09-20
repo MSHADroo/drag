@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 20,
+  "frame1_image": "pixabay_World_Heritage_Sites_15268_014_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_15268_014_frame2.jpg",
+  "action": "a parrot eating fruit.",
+  "caption": "A vibrant green parrot clings to a slender branch in a lush forest, intently nibbling on a partially eaten orange fruit, surrounded by dense green leaves that create a serene and natural atmosphere.",
+  "categories": [
+    "real",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 20,
+  "frame1_image": "pixabay_World_Heritage_Sites_39035_002_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_39035_002_frame2.jpg",
+  "action": "A globe rotates to right.",
+  "caption": "A stunning view of Earth from space, featuring vibrant blue oceans and green landmasses, with the continents clearly outlined and set against a deep black background that highlights the planet's beauty and diversity.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation",
+    "content removal",
+    "content creation"
+  ]
+}

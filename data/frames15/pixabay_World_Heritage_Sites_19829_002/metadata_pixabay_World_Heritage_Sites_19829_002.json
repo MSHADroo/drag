@@ -1,0 +1,15 @@
+{
+  "caption": "A person's hands are holding a white tablet displaying a \"Today Super Sales\" advertisement with a \"Best Price\" badge, while the background remains blurred to keep the focus on the device and offer.",
+  "action": "a bar chart rises up.",
+  "first_frame_second": 45,
+  "second_frame_second": 56,
+  "frame1_image": "pixabay_World_Heritage_Sites_19829_002_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_19829_002_frame2.jpg",
+  "categories": [
+    "animated",
+    "indoor",
+    "object",
+    "rescalation",
+    "content creation"
+  ]
+}

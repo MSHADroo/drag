@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 18,
+  "second_frame_second": 27,
+  "frame1_image": "pixabay_World_Heritage_Sites_110147_007_frame1.jpg",
+  "frame2_image": "pixabay_World_Heritage_Sites_110147_007_frame2.jpg",
+  "action": "a dog closes its left eye.",
+  "caption": "A close-up shot captures a pug dog facing the camera, wearing a black hat with a red pom pom, set against a solid orange background.",
+  "categories": [
+    "real",
+    "indoor",
+    "animal",
+    "rotation",
+    "content removal"
+  ]
+}
