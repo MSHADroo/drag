@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 90,
+  "second_frame_second": 100,
+  "frame1_image": "d6HF41b9gKc_25_30to166_frame1.jpg",
+  "frame2_image": "d6HF41b9gKc_25_30to166_frame2.jpg",
+  "action": "a man moves his head to right and his right hand to left.",
+  "caption": "A bearded man with glasses in a blue shirt, standing in front of a green sign; he appears to be explaining or teaching in an educational video. The background is a simple blue gradient, keeping the focus on the speaker and the sign.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}
