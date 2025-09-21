@@ -7,9 +7,7 @@ import tqdm
 from clip_directional_similarity import compute_clip_directional_similarity
 from drag_vectors_patch_similarity import compute_drag_vectors_patch_similarity
 from editable_patch_similarity import compute_editable_patch_similarity
-from masked_region_preserving_score import (
-    compute_masked_region_preserving_score,
-)
+from masked_region_preserving_score import compute_masked_region_preserving_score
 
 parser = argparse.ArgumentParser(description="Run All Metrics")
 parser.add_argument(

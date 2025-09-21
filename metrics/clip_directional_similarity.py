@@ -76,6 +76,11 @@ def compute_clip_directional_similarity(
     generated_image = Image.open(generated_image_path).convert("RGB")
     ground_truth = Image.open(ground_truth_path).convert("RGB")
 
+    target_size = (224, 224)  # CLIP's expected size
+    original_image = original_image.resize(target_size, Image.Resampling.LANCZOS)
+    generated_image = generated_image.resize(target_size, Image.Resampling.LANCZOS)
+    ground_truth = ground_truth.resize(target_size, Image.Resampling.LANCZOS)
+
     original_generated_similarity = dir_similarity(
         original_image, generated_image, drag_prompt
     ).item()
