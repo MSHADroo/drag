@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 432,
+  "second_frame_second": 440,
+  "frame1_image": "dBCmYO-np84_8_0to1422_frame1.jpg",
+  "frame2_image": "dBCmYO-np84_8_0to1422_frame2.jpg",
+  "action": " a man opens his mouth such that his teeth are visible and the dog in the left side, moves its tail to left.",
+  "caption": "A man with a beard and short hair sits on a gray couch in a casual setting, wearing a maroon t-shirt, while a dark-colored dog with its back turned is partially visible beside him and a potted plant is in the background. The man is looking directly at the camera with a neutral expression.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}

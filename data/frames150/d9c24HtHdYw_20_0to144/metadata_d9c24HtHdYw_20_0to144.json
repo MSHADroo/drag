@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 11,
+  "second_frame_second": 13,
+  "frame1_image": "d9c24HtHdYw_20_0to144_frame1.jpg",
+  "frame2_image": "d9c24HtHdYw_20_0to144_frame2.jpg",
+  "action": "a bowl of water rotated such that its water is poured into a pot.",
+  "caption": "A person, wearing a black jacket and gloves, is preparing a meal at a wooden picnic table by pouring water into a pot on a small portable gas stove, with camping supplies and trees visible in the background.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation",
+    "content creation"
+  ]
+}
