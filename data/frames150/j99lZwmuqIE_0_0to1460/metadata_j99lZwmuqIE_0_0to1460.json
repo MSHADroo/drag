@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 10,
+  "frame1_image": "j99lZwmuqIE_0_0to1460_frame1.jpg",
+  "frame2_image": "j99lZwmuqIE_0_0to1460_frame2.jpg",
+  "action": "point finger and thumb of a hand move further apart.",
+  "caption": "A person's hand is shown near a metallic engine piston placed on a worn wooden surface, suggesting a workshop or mechanical repair environment.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "relocation"
+  ]
+}

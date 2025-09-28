@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 29,
+  "second_frame_second": 50,
+  "frame1_image": "dK-UxhBJOao_5_0to126_frame1.jpg",
+  "frame2_image": "dK-UxhBJOao_5_0to126_frame2.jpg",
+  "action": "a man rotates his head to right.",
+  "caption": "A man in a gray suit sits at a table in a restaurant, his hands clasped together in front of him, appearing to be in a serious conversation. The table is set with glasses and a bottle, and the red booth and dim lighting create an intimate atmosphere.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}

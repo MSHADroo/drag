@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 0,
+  "frame1_image": "jaCcMBfImow_2_90to211_frame1.jpg",
+  "frame2_image": "jaCcMBfImow_2_90to211_frame2.jpg",
+  "action": "a man rotates his head to left.",
+  "caption": "A man in a white shirt, smiling warmly and looking directly at the camera in a softly lit indoor setting, creating a friendly and approachable atmosphere. The background includes a neutral-toned wall.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation"
+  ]
+}
