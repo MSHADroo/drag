@@ -10,7 +10,19 @@ def extract_patch_around_point(image, point, patch_size=5):
     x_start = max(0, x - patch_size)
     x_end = min(width, x + patch_size)
 
-    return image[y_start:y_end, x_start:x_end]
+    patch = image[y_start:y_end, x_start:x_end]
+    # Pad patch if it's smaller than expected
+    expected_shape = (patch_size * 2, patch_size * 2, image.shape[2])
+    pad_height = expected_shape[0] - patch.shape[0]
+    pad_width = expected_shape[1] - patch.shape[1]
+    if pad_height > 0 or pad_width > 0:
+        patch = np.pad(
+            patch,
+            ((0, pad_height), (0, pad_width), (0, 0)),
+            mode="constant",
+            constant_values=0,
+        )
+    return patch
 
 
 def compute_drag_vectors_patch_similarity(
