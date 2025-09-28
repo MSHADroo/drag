@@ -26,13 +26,12 @@ from PIL import Image
 from pytorch_lightning import seed_everything
 from torchvision.transforms import PILToTensor
 
-# device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-device = torch.device("cpu")
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
 
 def calculate_mean_distance(source_image_path, dragged_image_path, points_path, prompt):
     # using SD-2.1
-    dift = SDFeaturizer("stabilityai/stable-diffusion-2-1", device=device)
+    dift = SDFeaturizer("/media/external20/ahmad_zaferani/cache/huggingface/hub/models--stabilityai--stable-diffusion-2-1/snapshots/5cae40e6a2745ae2b01ad92ae5043f95f23644d6", device=device)
 
     # fixing the seed for semantic correspondence
     seed_everything(42)

@@ -1,61 +1,85 @@
-import argparse
 import json
 import os
-
-import tqdm
 
 from clip_directional_similarity import compute_clip_directional_similarity
 from drag_vectors_patch_similarity import compute_drag_vectors_patch_similarity
 from editable_patch_similarity import compute_editable_patch_similarity
+from fid_ssim import calculate_fid, calculate_ssim
+from image_fidelity import calculate_image_fidelity
 from masked_region_preserving_score import compute_masked_region_preserving_score
+from mean_distance import calculate_mean_distance
 
-parser = argparse.ArgumentParser(description="Run All Metrics")
-parser.add_argument(
-    "--results_dir", type=str, required=True, help="Path to the results directory"
-)
-parser.add_argument(
-    "--data_dir", type=str, required=True, help="Path to the data directory"
-)
-args = parser.parse_args()
+if not os.path.exists("evaluations.csv"):
+    with open("evaluations.csv", "w") as f:
+        f.write(
+            "sample,clip_directional_similarity,drag_vectors_patch_similarity,editable_patch_similarity,fid,ssim,image_fidelity,masked_region_preserving_score,mean_distance,time,memory\n"
+        )
+        processed_samples = set()
+else:
+    with open("evaluations.csv", "r") as f:
+        lines = f.readlines()
+        processed_samples = set(line.split(",")[0] for line in lines[1:])
 
-results_dir = args.results_dir
-data_dir = args.data_dir
 
-model_clip_directional_similarity = 0
-model_drag_vectors_patch_similarity = 0
-model_editable_patch_similarity = 0
-model_masked_region_preserving_score = 0
-
+results_dir = "/media/external20/ahmad_zaferani/EasyDrag/results"
+data_dir = "../data"
 for subdir in os.listdir(results_dir):
-    for sample in tqdm.tqdm(os.listdir(os.path.join(results_dir, subdir))):
-        sample_dir = os.path.join(results_dir, subdir, sample)
-        generated_image_path = os.path.join(sample_dir, "synthesized-image.png")
-        sample_dir = os.path.join(data_dir, subdir, sample)
-        input_image_path = os.path.join(sample_dir, f"{sample}_frame1.jpg")
-        ground_truth_image_path = os.path.join(sample_dir, f"{sample}_frame2.jpg")
-        mask_path = os.path.join(sample_dir, f"mask_{sample}.npy")
-        drag_instructions_path = os.path.join(sample_dir, f"tracks_{sample}.npy")
-        metadata_path = os.path.join(sample_dir, f"metadata_{sample}.json")
-        with open(metadata_path, "r") as f:
-            drag_prompt = json.load(f)["action"]
+    for sample in os.listdir(os.path.join(results_dir, subdir)):
+        if f"{subdir}/{sample}" in processed_samples:
+            print(f"Skipping {subdir}/{sample}")
+            continue
 
-        model_clip_directional_similarity += compute_clip_directional_similarity(
-            input_image_path, generated_image_path, drag_prompt
+        print(f"Processing {subdir}/{sample}")
+        generated_image_path = os.path.join(
+            results_dir, subdir, sample, "synthesized-image.png"
         )
-        model_editable_patch_similarity += compute_editable_patch_similarity(
-            generated_image_path, input_image_path, ground_truth_image_path, mask_path
+        input_image_path = os.path.join(
+            data_dir, subdir, sample, f"{sample}_frame1.jpg"
         )
-        model_drag_vectors_patch_similarity += compute_drag_vectors_patch_similarity(
+        mask_path = os.path.join(data_dir, subdir, sample, f"mask_{sample}.npy")
+        ground_truth_image_path = os.path.join(
+            data_dir, subdir, sample, f"{sample}_frame2.jpg"
+        )
+        drag_instructions_path = os.path.join(
+            data_dir, subdir, sample, f"tracks_{sample}.npy"
+        )
+        metadata_path = os.path.join(
+            data_dir, subdir, sample, f"metadata_{sample}.json"
+        )
+        with open(metadata_path, "r") as f:
+            metadata = json.load(f)
+            drag_prompt = metadata["action"]
+            prompt = metadata["caption"]
+
+        clip_directional_similarity = compute_clip_directional_similarity(
+            input_image_path, ground_truth_image_path, generated_image_path, drag_prompt
+        )
+        drag_vectors_patch_similarity = compute_drag_vectors_patch_similarity(
             generated_image_path,
             input_image_path,
             ground_truth_image_path,
             drag_instructions_path,
         )
-        model_masked_region_preserving_score += compute_masked_region_preserving_score(
+        editable_patch_similarity = compute_editable_patch_similarity(
             generated_image_path, input_image_path, ground_truth_image_path, mask_path
         )
+        fid = calculate_fid(input_image_path, generated_image_path)
+        ssim = calculate_ssim(input_image_path, generated_image_path)
+        image_fidelity = calculate_image_fidelity(
+            input_image_path, generated_image_path
+        )
+        masked_region_preserving_score = compute_masked_region_preserving_score(
+            generated_image_path, input_image_path, ground_truth_image_path, mask_path
+        )
+        mean_distance = calculate_mean_distance(
+            input_image_path, generated_image_path, drag_instructions_path, prompt
+        )
+        with open(os.path.join(results_dir, subdir, sample, "consumed-time.txt")) as f:
+            consumed_time = f.read().split()[1]
+        with open(os.path.join(results_dir, subdir, sample, "peak-memory.txt")) as f:
+            peak_memory = f.read().split()[1]
 
-print("CLIP Directional Similarity: ", model_clip_directional_similarity / 400)
-print("Drag Vectors Patch Similarity: ", model_drag_vectors_patch_similarity / 400)
-print("Editable Patch Similarity: ", model_editable_patch_similarity / 400)
-print("Masked Region Preserving Score: ", model_masked_region_preserving_score / 400)
+        with open("evaluations.csv", "a") as f:
+            f.write(
+                f"{subdir}/{sample},{clip_directional_similarity},{drag_vectors_patch_similarity},{editable_patch_similarity},{fid},{ssim},{image_fidelity},{masked_region_preserving_score},{mean_distance},{consumed_time},{peak_memory}\n"
+            )
