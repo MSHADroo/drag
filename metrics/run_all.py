@@ -1,6 +1,8 @@
+import gc
 import json
 import os
 
+import torch
 from clip_directional_similarity import compute_clip_directional_similarity
 from drag_vectors_patch_similarity import compute_drag_vectors_patch_similarity
 from editable_patch_similarity import compute_editable_patch_similarity
@@ -83,3 +85,7 @@ for subdir in os.listdir(results_dir):
             f.write(
                 f"{subdir}/{sample},{clip_directional_similarity},{drag_vectors_patch_similarity},{editable_patch_similarity},{fid},{ssim},{image_fidelity},{masked_region_preserving_score},{mean_distance},{consumed_time},{peak_memory}\n"
             )
+
+        # After processing each sample
+        gc.collect()
+        torch.cuda.empty_cache()
