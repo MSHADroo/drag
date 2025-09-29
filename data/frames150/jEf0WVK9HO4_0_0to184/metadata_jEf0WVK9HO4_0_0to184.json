@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 30,
+  "second_frame_second": 58,
+  "frame1_image": "jEf0WVK9HO4_0_0to184_frame1.jpg",
+  "frame2_image": "jEf0WVK9HO4_0_0to184_frame2.jpg",
+  "action": "a seeded loaf of bread is being sliced and the slice is placed on the cutting board and the knife is removed.",
+  "caption": "A person is slicing a seeded loaf of bread on a white marble cutting board, which is placed on a green cloth.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
+}

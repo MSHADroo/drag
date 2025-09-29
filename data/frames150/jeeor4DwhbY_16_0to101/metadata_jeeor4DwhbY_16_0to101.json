@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 49,
+  "second_frame_second": 39,
+  "frame1_image": "jeeor4DwhbY_16_0to101_frame1.jpg",
+  "frame2_image": "jeeor4DwhbY_16_0to101_frame2.jpg",
+  "action": "a man rotates a spoon counter clockwise such that his mouth becomes visible and his left eye disappears.",
+  "caption": "A man in a kitchen, wearing a white shirt and blue apron, is holding a silver bowl with a white mixture and using a red spoon to stir or scoop it, while looking at the camera.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
+}

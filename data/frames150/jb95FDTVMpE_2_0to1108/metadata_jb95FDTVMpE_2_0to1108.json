@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 29,
+  "second_frame_second": 42,
+  "frame1_image": "jb95FDTVMpE_2_0to1108_frame1.jpg",
+  "frame2_image": "jb95FDTVMpE_2_0to1108_frame2.jpg",
+  "action": "a man rotates a pot in his right hand such that the oil is poured into a pan on the stove.",
+  "caption": "A chef in a professional kitchen, dressed in a white chef's coat, is focused on preparing a meal, pouring liquid into a pot on the stove with various cooking ingredients and utensils around him. The kitchen is well-organized, with cans, vegetables, and other supplies visible on the counter and in the background.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
+}
