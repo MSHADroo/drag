@@ -5,4 +5,4 @@
 play.ipynb
 __pycache__/
 synthesized-image.png
-evaluations.csv
+evaluations*.csv

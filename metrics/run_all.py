@@ -23,7 +23,7 @@ else:
         processed_samples = set(line.split(",")[0] for line in lines[1:])
 
 
-results_dir = "/media/external20/ahmad_zaferani/EasyDrag/results"
+results_dir = "/media/external20/ahmad_zaferani/DragNoise/results"
 data_dir = "../data"
 for subdir in os.listdir(results_dir):
     for sample in os.listdir(os.path.join(results_dir, subdir)):
