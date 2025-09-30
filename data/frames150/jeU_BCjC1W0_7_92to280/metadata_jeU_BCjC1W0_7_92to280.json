@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 146,
+  "second_frame_second": 161,
+  "frame1_image": "jeU_BCjC1W0_7_92to280_frame1.jpg",
+  "frame2_image": "jeU_BCjC1W0_7_92to280_frame2.jpg",
+  "action": "a woman picks up a needle from a jar with her left hand, move her both hands in front of her chest and turns her head slightly to left.",
+  "caption": "A woman, dressed in a black jacket and white shirt, sits at a wooden table with pieces of yellow knitted fabric, reaching for pins from a small jar, with a large potted plant visible in the background.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation",
+    "content creation"
+  ]
+}
