@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 30,
+  "second_frame_second": 40,
+  "frame1_image": "jObjmun3k3w_89_24to136_frame1.jpg",
+  "frame2_image": "jObjmun3k3w_89_24to136_frame2.jpg",
+  "action": "a man holding a spoon raising his right hand to eat food.",
+  "caption": "A young man wearing a green t-shirt and a black baseball cap is sitting at a wooden dining table in a kitchen, enjoying ice cream and cake.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "relocation",
+    "content creation"
+  ]
+}

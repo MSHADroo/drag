@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 70,
+  "second_frame_second": 118,
+  "frame1_image": "jk_pLyIuVrA_173_0to124_frame1.jpg",
+  "frame2_image": "jk_pLyIuVrA_173_0to124_frame2.jpg",
+  "action": "the handle of an oil rig is lowered.",
+  "caption": "A large blue and red industrial oil rig marked with the number \"1016\" on its side, surrounded by a red fence in a desert-like environment under a clear, sunny sky.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

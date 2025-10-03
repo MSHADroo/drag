@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 62,
+  "second_frame_second": 72,
+  "frame1_image": "jPFAtCo_9JU_105_33to171_frame1.jpg",
+  "frame2_image": "jPFAtCo_9JU_105_33to171_frame2.jpg",
+  "action": "a man moves a step forward to the right.",
+  "caption": "A man wearing a purple hat and sky blue shirt is navigating an agility course marked by orange traffic cones on a paved outdoor surface, with trees and a clear blue sky in the background.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "relocation"
+  ]
+}

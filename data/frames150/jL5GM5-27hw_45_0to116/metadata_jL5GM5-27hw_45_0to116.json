@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 10,
+  "frame1_image": "jL5GM5-27hw_45_0to116_frame1.jpg",
+  "frame2_image": "jL5GM5-27hw_45_0to116_frame2.jpg",
+  "action": "a doll is moved to left.",
+  "caption": "A toy doll with blonde hair, large expressive eyes, and a pink swimsuit decorated with watermelon prints, standing in front of a bright and colorful child's playroom featuring a pink high chair, a white table, and various toys.",
+  "categories": [
+    "animated",
+    "indoor",
+    "object",
+    "relocation"
+  ]
+}

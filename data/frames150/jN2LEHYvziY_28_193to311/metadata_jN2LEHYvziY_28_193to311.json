@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 50,
+  "second_frame_second": 58,
+  "frame1_image": "jN2LEHYvziY_28_193to311_frame1.jpg",
+  "frame2_image": "jN2LEHYvziY_28_193to311_frame2.jpg",
+  "action": "a wooden spoon moved to right to stir a pot.",
+  "caption": "A close-up image shows a pot of vegetable stew being stirred with a wooden spoon on a stove, highlighting diced carrots, onions, and other ingredients in a simple cooking scene.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "relocation"
+  ]
+}
