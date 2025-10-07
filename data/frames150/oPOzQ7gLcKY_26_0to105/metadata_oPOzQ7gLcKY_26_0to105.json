@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 39,
+  "frame1_image": "oPOzQ7gLcKY_26_0to105_frame1.jpg",
+  "frame2_image": "oPOzQ7gLcKY_26_0to105_frame2.jpg",
+  "action": "a man turns his head to right.",
+  "caption": "a man wearing sunglasses and a brown jacket, standing outdoors in front of a tree, with his mouth open as if he is speaking. The background includes part of a tree and a building, but the focus remains on the man and his expressive demeanor.",
+  "categories": [
+    "real",
+    "outdoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
+}

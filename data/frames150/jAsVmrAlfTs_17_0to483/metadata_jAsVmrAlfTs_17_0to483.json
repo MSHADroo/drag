@@ -1,0 +1,16 @@
+{
+  "first_frame_second": 210,
+  "second_frame_second": 230,
+  "frame1_image": "jAsVmrAlfTs_17_0to483_frame1.jpg",
+  "frame2_image": "jAsVmrAlfTs_17_0to483_frame2.jpg",
+  "action": "a pair of pea pod being opened and three peas becoming visible.",
+  "caption": "A pair of hands holding a green toy vegetable, likely a pea pod, with other colorful toy fruits and vegetables in the background.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation",
+    "content creation",
+    "content removal"
+  ]
+}

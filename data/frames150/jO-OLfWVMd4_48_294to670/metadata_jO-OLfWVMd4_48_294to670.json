@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 250,
+  "second_frame_second": 272,
+  "frame1_image": "jO-OLfWVMd4_48_294to670_frame1.jpg",
+  "frame2_image": "jO-OLfWVMd4_48_294to670_frame2.jpg",
+  "action": "a man raises his head and looks up; while raising his left hand.",
+  "caption": "A man with a beard and glasses is sitting at a desk in a casual, colorful room, handling some electronic devices including a phone, earbuds, and a tablet, appearing focused on his activity. The background includes a brick wall, shelves with various items, and a comfortable home-office vibe.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}
