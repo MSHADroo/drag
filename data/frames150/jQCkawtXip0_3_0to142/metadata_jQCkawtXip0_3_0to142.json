@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 132,
+  "second_frame_second": 141,
+  "frame1_image": "jQCkawtXip0_3_0to142_frame1.jpg",
+  "frame2_image": "jQCkawtXip0_3_0to142_frame2.jpg",
+  "action": "a man holding a telephone with his right hand moves it to left and rotates his head to left slightly.",
+  "caption": "A man with curly hair, dressed in a black collared shirt, is holding a black telephone to his ear with his right hand and making a pained or uncomfortable facial expression, set against a plain white background.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}
