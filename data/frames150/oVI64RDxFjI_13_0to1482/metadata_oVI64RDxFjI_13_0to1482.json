@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 1200,
+  "second_frame_second": 1160,
+  "frame1_image": "oVI64RDxFjI_13_0to1482_frame1.jpg",
+  "frame2_image": "oVI64RDxFjI_13_0to1482_frame2.jpg",
+  "action": "a man rotates his head to right and picks lemonade glass to drink it.",
+  "caption": "A man wearing a black apron and hat is in a kitchen, enjoying a meal of fried food and fries with a glass of homemade lemonade, as he stands by the counter. The scene captures him holding food in one hand and the lemonade in the other, with a bright kitchen setting in the background.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "relocation"
+  ]
+}
