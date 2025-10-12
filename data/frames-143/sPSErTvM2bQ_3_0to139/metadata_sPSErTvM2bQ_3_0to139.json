@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 30,
+  "second_frame_second": 50,
+  "frame1_image": "sPSErTvM2bQ_3_0to139_frame1.jpg",
+  "frame2_image": "sPSErTvM2bQ_3_0to139_frame2.jpg",
+  "action": "a woman turns clockwise and raises her hands.",
+  "caption": "A woman in a floral dress stands in a bright, well-equipped kitchen, positioned by a stove with a pan and surrounded by neatly arranged ingredients, as she animatedly explains a step in her cooking tutorial.",
+  "categories": [
+    "real",
+    "indoor",
+    "human",
+    "rotation",
+    "content creation"
+  ]
+}

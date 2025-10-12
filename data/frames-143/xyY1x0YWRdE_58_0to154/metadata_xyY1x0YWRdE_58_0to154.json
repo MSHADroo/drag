@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 111,
+  "second_frame_second": 113,
+  "frame1_image": "xyY1x0YWRdE_58_0to154_frame1.jpg",
+  "frame2_image": "xyY1x0YWRdE_58_0to154_frame2.jpg",
+  "action": "wheel of a bicycle rotates clockwise.",
+  "caption": "A person is standing on grass, holding up a white and black bicycle with a large wheel and visible chain components, appearing to inspect or adjust it in natural outdoor lighting.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

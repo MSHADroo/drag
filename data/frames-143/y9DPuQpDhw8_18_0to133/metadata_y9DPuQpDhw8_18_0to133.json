@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 35,
+  "second_frame_second": 54,
+  "frame1_image": "y9DPuQpDhw8_18_0to133_frame1.jpg",
+  "frame2_image": "y9DPuQpDhw8_18_0to133_frame2.jpg",
+  "action": "a man turns his face to the left",
+  "caption": "A man in a navy blue suit and tie stands in front of a red and white backdrop, speaking into a microphone and gesturing with his hands, suggesting he is delivering a formal speech at a professional or political event.",
+  "categories": [
+    "real",
+    "indoor",
+    "object",
+    "rotation"
+  ]
+}

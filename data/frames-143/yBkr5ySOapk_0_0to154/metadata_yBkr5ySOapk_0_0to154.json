@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 12,
+  "frame1_image": "yBkr5ySOapk_0_0to154_frame1.jpg",
+  "frame2_image": "yBkr5ySOapk_0_0to154_frame2.jpg",
+  "action": "a car drives along a road.",
+  "caption": "a sleek car driving along a winding race track, surrounded by lush green grass and trees, with the aerial perspective emphasizing the track's twists and the car's motion.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}
