@@ -11,7 +11,7 @@ import numpy as np
 import os
 import csv
 
-folder_path = "data/frames-143"
+folder_path = "data/frames-ai"
 metis_api_key = "tpsg-zeyJfijuje7IihgoeCTXOkIBl2LThjQ"
 
 
@@ -44,8 +44,9 @@ for sample_name in os.listdir(folder_path):
 else:
     assert False, "All samples are complete"
 
-initial_data = find_value("data/code/OpenVid-1M.csv", sample_name)
-content = f"describe this image in one or two sentences. initial data: {initial_data}"
+# initial_data = find_value("data/code/OpenVid-1M.csv", sample_name)
+# content = f"describe this image in one or two sentences. initial data: {initial_data}"
+content = f"describe this image in one or two sentences."
 # read json
 
 path = glob(
@@ -98,7 +99,7 @@ response = client.chat.completions.create(
 caption = response.choices[0].message.content
 current_data["action"] = current_data.get("caption")
 current_data["caption"] = caption
-current_data["categories"] = ["real", "indoor", "object", "rotation"]
+current_data["categories"] = ["ai-generated", "indoor", "object", "rotation"]
 # create tracks file
 source_points = np.array(
     [[pt["x"], pt["y"]] for pt in current_data.pop("source_points")]
