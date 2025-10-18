@@ -49,6 +49,7 @@ else:
 content = f"describe this image in one or two sentences."
 # read json
 
+print(sample_name)
 path = glob(
     str(Path(folder_path) / Path(sample_name) / Path(f"drag_data_frame_*.json"))
 )[0]

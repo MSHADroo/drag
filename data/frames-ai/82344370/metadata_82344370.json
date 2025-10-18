@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 101,
+  "second_frame_second": 118,
+  "frame1_image": "82344370_frame1.jpg",
+  "frame2_image": "82344370_frame2.jpg",
+  "action": "a robot washing dishes.",
+  "caption": "A humanoid robot wearing a floral apron and yellow rubber gloves is washing dishes at a kitchen sink, with a striped towel draped over its shoulder.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rotation"
+  ]
+}
