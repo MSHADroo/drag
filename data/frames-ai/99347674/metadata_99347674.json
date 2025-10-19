@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 45,
+  "frame1_image": "99347674_frame1.jpg",
+  "frame2_image": "99347674_frame2.jpg",
+  "action": "a glass of ice cream rotates clockwise.",
+  "caption": "A cute gray tabby kitten is peacefully sleeping on top of colorful scoops of ice cream in a large glass dessert dish.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rotation"
+  ]
+}

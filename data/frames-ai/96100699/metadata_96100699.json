@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 115,
+  "second_frame_second": 128,
+  "frame1_image": "96100699_frame1.jpg",
+  "frame2_image": "96100699_frame2.jpg",
+  "action": "a frog picks up a bowl from a table.",
+  "caption": "A cartoon frog character dressed in medieval clothing is kneading dough on a wooden table in a quaint stone village, with other similarly dressed frog characters in the background.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "animal",
+    "rotation",
+    "relocation"
+  ]
+}

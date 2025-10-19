@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 0,
+  "second_frame_second": 18,
+  "frame1_image": "95343147_frame1.jpg",
+  "frame2_image": "95343147_frame2.jpg",
+  "action": "a woman turns her head counterclockwise.",
+  "caption": "A steampunk-inspired humanoid robot with intricate brass and metal detailing stands in a dimly lit laboratory filled with vintage scientific equipment. The robot's design features complex mechanical joints and an elaborate headpiece with fin-like ornaments.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "human",
+    "rotation",
+    "content removal"
+  ]
+}

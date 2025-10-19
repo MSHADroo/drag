@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 20,
+  "second_frame_second": 70,
+  "frame1_image": "96484594_frame1.jpg",
+  "frame2_image": "96484594_frame2.jpg",
+  "action": "a frog closes its mouth.",
+  "caption": "a green frog sitting on a lily pad, but humorously, the frog has an exaggeratedly wide open mouth with large, human-like teeth. The scene is set on a pond with lily pads in the background.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "animal",
+    "rotation",
+    "content removal"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 10,
+  "second_frame_second": 40,
+  "frame1_image": "96587046_frame1.jpg",
+  "frame2_image": "96587046_frame2.jpg",
+  "action": "a cat turns its head to right.",
+  "caption": "a simple, black ink illustration of a fluffy black cat with large, expressive eyes and prominent whiskers, sitting and looking forward. The background is plain and light.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "animal",
+    "rotation"
+  ]
+}

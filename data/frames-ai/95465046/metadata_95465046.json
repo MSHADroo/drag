@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 254,
+  "second_frame_second": 234,
+  "frame1_image": "95465046_frame1.jpg",
+  "frame2_image": "95465046_frame2.jpg",
+  "action": "a robot lowering its head and lowers its left hand.",
+  "caption": "a WALL-E robot holding a power bank while sitting on a sidewalk behind a cardboard sign that reads \"POWERLESS NEED = 1.\" The scene humorously depicts the robot as if it's seeking help to recharge its batteries.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rotation"
+  ]
+}

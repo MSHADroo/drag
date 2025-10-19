@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 61,
+  "second_frame_second": 65,
+  "frame1_image": "96451172_frame1.jpg",
+  "frame2_image": "96451172_frame2.jpg",
+  "action": "a bear holding a lightsaber rotates to left.",
+  "caption": "A teddy bear dressed as a Jedi, complete with a brown robe and blue lightsaber, stands in a desert landscape with two suns in the sky, reminiscent of the planet Tatooine from Star Wars.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}
