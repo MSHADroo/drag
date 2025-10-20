@@ -3,12 +3,13 @@
   "second_frame_second": 84,
   "frame1_image": "ljfmwGI1qFA_14_34to188_frame1.jpg",
   "frame2_image": "ljfmwGI1qFA_14_34to188_frame2.jpg",
-  "action": null,
-  "caption": "A woman in a blue and white patterned shirt is decorating a cake with a piping bag in a well-equipped, cozy kitchen, with baking tools, books, and appliances visible in the background. The scene captures a casual, homey moment of cake preparation.",
+  "action": "a woman holdong a piping bag, moves to left.",
+  "caption": "A woman in a blue and white patterned shirt is decorating a cake with a piping bag in a well-equipped, cozy kitchen, with baking tools, books, and appliances visible in the background.",
   "categories": [
     "real",
     "indoor",
-    "object",
-    "rotation"
+    "human",
+    "relocation",
+    "content creation"
   ]
 }
