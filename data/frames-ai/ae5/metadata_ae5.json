@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 30,
+  "second_frame_second": 50,
+  "frame1_image": "ae5_frame1.jpg",
+  "frame2_image": "ae5_frame2.jpg",
+  "action": "a cat pulls a blanket over itself.",
+  "caption": "A black cat with wide eyes is tucked under a white blanket on a bed with bright blue pillows, against a colorful yellow and pink background. The cat looks cozy and slightly surprised or curious.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "animal",
+    "content removal"
+  ]
+}

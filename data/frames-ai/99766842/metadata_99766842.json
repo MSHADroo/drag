@@ -1,0 +1,15 @@
+{
+  "first_frame_second": 84,
+  "second_frame_second": 104,
+  "frame1_image": "99766842_frame1.jpg",
+  "frame2_image": "99766842_frame2.jpg",
+  "action": "a woman opens a window.",
+  "caption": "A person with long pink hair is opening a sunlit window in a cozy room with a large plant and a wooden table that has an open book on it.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rotation",
+    "content removal"
+  ]
+}
