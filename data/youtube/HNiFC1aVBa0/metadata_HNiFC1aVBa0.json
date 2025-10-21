@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 12,
+  "second_frame_second": 13,
+  "frame1_image": "HNiFC1aVBa0_frame1.jpg",
+  "frame2_image": "HNiFC1aVBa0_frame2.jpg",
+  "action": "a cat puts its paw on a couch.",
+  "caption": "Tom cat, the animated cat from Tom and Jerry, cautiously lifting a red couch cushion, seemingly searching for something or someone. The setting is a colorful living room with a yellow rug and bookshelves in the background.",
+  "categories": [
+    "animated",
+    "indoor",
+    "animal",
+    "rotation"
+  ]
+}

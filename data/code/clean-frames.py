@@ -1,15 +1,15 @@
-import mediapy as media
-from PIL import Image
-import cv2
 import base64
-from openai import OpenAI
-from pathlib import Path
-import json
-from pathlib import Path
-from glob import glob
-import numpy as np
-import os
 import csv
+import json
+import os
+from glob import glob
+from pathlib import Path
+
+import cv2
+import mediapy as media
+import numpy as np
+from openai import OpenAI
+from PIL import Image
 
 folder_path = "data/frames-ai"
 metis_api_key = "tpsg-zeyJfijuje7IihgoeCTXOkIBl2LThjQ"

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 19,
+  "second_frame_second": 20,
+  "frame1_image": "eiO8IzhYwnQ_frame1.jpg",
+  "frame2_image": "eiO8IzhYwnQ_frame2.jpg",
+  "action": "a dog looks down.",
+  "caption": "a claymation-style dog with a large black nose, floppy ears, a blue knitted hat, and an expressive face, wearing a black collar. The background is outdoors and blurred, suggesting a park or garden setting.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

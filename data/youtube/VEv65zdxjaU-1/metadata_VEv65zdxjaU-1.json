@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 67,
+  "second_frame_second": 68,
+  "frame1_image": "VEv65zdxjaU_frame1.jpg",
+  "frame2_image": "VEv65zdxjaU_frame2.jpg",
+  "action": "a dog looks to right.",
+  "caption": "A cartoon dog with a large black nose and a yellow star on its chest sits in a dimly lit, enclosed alleyway, looking somewhat disinterested; a tin can lies on the ground nearby.",
+  "categories": [
+    "animated",
+    "outdoor",
+    "animal",
+    "rotation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_frame_second": 50,
+  "second_frame_second": 51,
+  "frame1_image": "yNSq07-gRLI-1_frame1.jpg",
+  "frame2_image": "yNSq07-gRLI-1_frame2.jpg",
+  "action": "a football player shoots a penalty kick and the goalkeeper dives to right.",
+  "caption": "A soccer player in a blue jersey is about to take a penalty kick while the goalkeeper prepares to defend the goal. The referee and several other players are watching attentively from nearby.",
+  "categories": [
+    "real",
+    "outdoor",
+    "object",
+    "relocation"
+  ]
+}
