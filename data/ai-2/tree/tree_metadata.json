@@ -1,0 +1,12 @@
+{
+  "frame1_image": "tree_frame1.jpg",
+  "frame2_image": "tree_frame2.jpg",
+  "caption": "a single, lush green tree with a broad canopy standing on a plain white background.",
+  "action": "a tree becomes taller but its branches become less dense.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ]
+}

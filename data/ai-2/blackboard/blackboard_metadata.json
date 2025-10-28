@@ -1,0 +1,12 @@
+{
+  "frame1_image": "blackboard_frame1.jpg",
+  "frame2_image": "blackboard_frame2.jpg",
+  "caption": "a blackboard mounted on a yellow wall with a simple math equation, \"a + = 2,\" and a small smiley face drawn in chalk. There are pieces of chalk and an eraser resting on the chalkboard tray.",
+  "action": "a blackboard getting smaller.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation"
+  ]
+}

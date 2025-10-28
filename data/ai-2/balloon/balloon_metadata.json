@@ -1,0 +1,12 @@
+{
+  "frame1_image": "balloon_frame1.jpg",
+  "frame2_image": "balloon_frame2.jpg",
+  "caption": "A single red balloon with a string is floating against a plain white background.",
+  "action": "a red balloon getting smaller.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ]
+}

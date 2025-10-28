@@ -59,7 +59,7 @@ def compute_drag_vectors_patch_similarity(
         source_patch_input = extract_patch_around_point(input_image, source)
         # Compute RMSE ratio
         rmse_generated = np.sqrt(
-            np.mean((target_patch_generated - target_patch_ground_truth) ** 2)
+            np.mean((target_patch_generated - source_patch_input) ** 2)
         )
         rmse_input = np.sqrt(
             np.mean((source_patch_input - target_patch_ground_truth) ** 2)

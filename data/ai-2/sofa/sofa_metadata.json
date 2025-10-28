@@ -1,0 +1,12 @@
+{
+  "frame1_image": "sofa_frame1.jpg",
+  "frame2_image": "sofa_frame2.jpg",
+  "caption": "a modern, light gray sofa set against a plain white background, creating a minimalist and clean aesthetic. The sofa has simple lines and thin black legs.",
+  "action": "a sofa getting bigger.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation"
+  ]
+}

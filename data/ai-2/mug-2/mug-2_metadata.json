@@ -1,0 +1,12 @@
+{
+  "frame1_image": "mug-2_frame1.jpg",
+  "frame2_image": "mug-2_frame2.jpg",
+  "caption": "a plain yellow ceramic mug with a handle, set against a clean white background. The mug is simple and unadorned, emphasizing its solid color and smooth texture.",
+  "action": "a mug stretched vertically",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "frame1_image": "blackboard-2_frame1.jpg",
+  "frame2_image": "blackboard-2_frame2.jpg",
+  "caption": "A blackboard with a wooden frame is mounted on a yellow wall. On the blackboard, there is a simple equation (\"a + = 2\") and a smiley face drawn with white chalk.",
+  "action": "a blackboard streched vertically and data on it turned counter-clockwise.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation",
+    "rotation"
+  ]
+}

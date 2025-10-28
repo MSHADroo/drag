@@ -1,0 +1,12 @@
+{
+  "frame1_image": "mug_frame1.jpg",
+  "frame2_image": "mug_frame2.jpg",
+  "caption": "a plain yellow ceramic mug with a handle, set against a clean white background. The mug appears simple and modern in design.",
+  "action": "a mug getting smaller.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ]
+}

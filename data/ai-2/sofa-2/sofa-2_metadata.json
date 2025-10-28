@@ -1,0 +1,13 @@
+{
+  "frame1_image": "sofa-2_frame1.jpg",
+  "frame2_image": "sofa-2_frame2.jpg",
+  "caption": "a modern, minimalist grey sofa with clean lines and metal legs set against a plain white background. The sofa has two seat cushions and two back cushions, giving it a simple yet comfortable appearance.",
+  "action": "back of a sofa streched vertically.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation",
+    "content creation"
+  ]
+}
