@@ -8,29 +8,53 @@ from drag_vectors_patch_similarity import compute_drag_vectors_patch_similarity
 from editable_patch_similarity import compute_editable_patch_similarity
 from fid_ssim import calculate_fid, calculate_ssim
 from image_fidelity import calculate_image_fidelity
-from masked_region_preserving_score import compute_masked_region_preserving_score
+from masked_region_preserving_score import \
+    compute_masked_region_preserving_score
 from mean_distance import calculate_mean_distance
 
-if not os.path.exists("evaluations.csv"):
-    with open("evaluations.csv", "w") as f:
+evaluations_csv = "evaluations.csv"
+if not os.path.exists(evaluations_csv):
+    with open(evaluations_csv, "w") as f:
         f.write(
             "sample,clip_directional_similarity,drag_vectors_patch_similarity,editable_patch_similarity,fid,ssim,image_fidelity,masked_region_preserving_score,mean_distance,time,memory\n"
         )
         processed_samples = set()
 else:
-    with open("evaluations.csv", "r") as f:
+    with open(evaluations_csv, "r") as f:
         lines = f.readlines()
         processed_samples = set(line.split(",")[0] for line in lines[1:])
 
+def replace_metrics_in_csv(sample_key, drag_val, editable_val, csv_path):
+    # Read CSV, replace the two columns for the matching sample line, write back.
+    with open(csv_path, "r") as f:
+        lines = f.readlines()
+    if not lines:
+        return
+    header = lines[0]
+    body = lines[1:]
+    new_body = []
+    found = False
+    for line in body:
+        if line.startswith(sample_key + ","):
+            parts = line.rstrip("\n").split(",")
+            # Ensure list long enough
+            if len(parts) < 11:
+                parts += [""] * (11 - len(parts))
+            parts[2] = str(drag_val)
+            parts[3] = str(editable_val)
+            new_body.append(",".join(parts) + "\n")
+            found = True
+        else:
+            new_body.append(line)
+    assert found, "Sample key not found in CSV for replacement."
+    with open(csv_path, "w") as f:
+        f.write(header)
+        f.writelines(new_body)
 
 results_dir = "/media/external20/ahmad_zaferani/DragNoise/results"
 data_dir = "../data"
 for subdir in os.listdir(results_dir):
     for sample in os.listdir(os.path.join(results_dir, subdir)):
-        if f"{subdir}/{sample}" in processed_samples:
-            print(f"Skipping {subdir}/{sample}")
-            continue
-
         print(f"Processing {subdir}/{sample}")
         generated_image_path = os.path.join(
             results_dir, subdir, sample, "synthesized-image.png"
@@ -53,9 +77,6 @@ for subdir in os.listdir(results_dir):
             drag_prompt = metadata["action"]
             prompt = metadata["caption"]
 
-        clip_directional_similarity = compute_clip_directional_similarity(
-            input_image_path, ground_truth_image_path, generated_image_path, drag_prompt
-        )
         drag_vectors_patch_similarity = compute_drag_vectors_patch_similarity(
             generated_image_path,
             input_image_path,
@@ -64,6 +85,15 @@ for subdir in os.listdir(results_dir):
         )
         editable_patch_similarity = compute_editable_patch_similarity(
             generated_image_path, input_image_path, ground_truth_image_path, mask_path
+        )
+        if f"{subdir}/{sample}" in processed_samples:
+            # replace the two columns in the CSV and skip full re-evaluation
+            replace_metrics_in_csv(f"{subdir}/{sample}", drag_vectors_patch_similarity, editable_patch_similarity, evaluations_csv)
+            print(f"Updated drag/editable for {subdir}/{sample} in {evaluations_csv}")
+            continue
+
+        clip_directional_similarity = compute_clip_directional_similarity(
+            input_image_path, ground_truth_image_path, generated_image_path, drag_prompt
         )
         fid = calculate_fid(input_image_path, generated_image_path)
         ssim = calculate_ssim(input_image_path, generated_image_path)
@@ -81,7 +111,7 @@ for subdir in os.listdir(results_dir):
         with open(os.path.join(results_dir, subdir, sample, "peak-memory.txt")) as f:
             peak_memory = f.read().split()[1]
 
-        with open("evaluations.csv", "a") as f:
+        with open(evaluations_csv, "a") as f:
             f.write(
                 f"{subdir}/{sample},{clip_directional_similarity},{drag_vectors_patch_similarity},{editable_patch_similarity},{fid},{ssim},{image_fidelity},{masked_region_preserving_score},{mean_distance},{consumed_time},{peak_memory}\n"
             )
