@@ -1,0 +1,12 @@
+{
+  "frame1_image": "shirt_frame1.jpg",
+  "frame2_image": "shirt_frame2.jpg",
+  "caption": "a light blue, long-sleeved, button-up shirt neatly laid out on a speckled gray surface. The shirt has a classic collar and is likely a child's size.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation"
+  ],
+  "action": "a long sleeve shirt become short sleeve."
+}

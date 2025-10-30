@@ -1,0 +1,12 @@
+{
+  "frame1_image": "flag_frame1.jpg",
+  "frame2_image": "flag_frame2.jpg",
+  "caption": "flag of the United States of America, featuring thirteen red and white stripes and a blue rectangle with fifty white stars. It is displayed against a plain white background.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ],
+  "action": "a flag become smaller."
+}

@@ -1,0 +1,12 @@
+{
+  "frame1_image": "football-2_frame1.jpg",
+  "frame2_image": "football-2_frame2.jpg",
+  "caption": "A classic black and white soccer ball sits on a grassy field with goal posts visible in the background under a clear sky on a sunny day.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ],
+  "action": "a football streched to be like a rugby ball."
+}

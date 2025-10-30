@@ -1,0 +1,12 @@
+{
+  "frame1_image": "football_frame1.jpg",
+  "frame2_image": "football_frame2.jpg",
+  "caption": "A classic black and white soccer ball sits on a green grass field, with goalposts visible in the blurred background under a clear sky.",
+  "categories": [
+    "ai-generated",
+    "outdoor",
+    "object",
+    "rescalation"
+  ],
+  "action": "a football gets smaller."
+}
