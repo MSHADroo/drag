@@ -67,4 +67,4 @@ def compute_drag_vectors_patch_similarity(
         ratios.append(
             round(rmse_generated / (rmse_input + 1e-8), 6)
         )  # avoid division by zero
-    return np.mean(ratios)
+    return round(np.mean(ratios), 6)

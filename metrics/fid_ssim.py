@@ -1,5 +1,7 @@
 import os
 import shutil
+import tempfile
+from pathlib import Path
 
 import cv2
 import numpy as np
@@ -15,12 +17,24 @@ def ensure_clean_dir(dir_path):
 
 
 def calculate_fid(original_image_path, generated_image_path):
-    ensure_clean_dir("/tmp/original")
-    ensure_clean_dir("/tmp/generated")
-    shutil.copy(original_image_path, "/tmp/original/original.png")
-    shutil.copy(generated_image_path, "/tmp/generated/generated.png")
-    fid_score = fid.compute_fid("/tmp/original", "/tmp/generated")
-    return round(fid_score, 6)
+    """Compute FID between two single images by saving them to temporary folders."""
+    with tempfile.TemporaryDirectory() as td:
+        orig_dir = Path(td) / "original"
+        gen_dir = Path(td) / "generated"
+        orig_dir.mkdir()
+        gen_dir.mkdir()
+
+        # Convert and save as PNG to ensure consistent input to clean-fid
+        Image.open(original_image_path).convert("RGB").save(
+            orig_dir / "original.png", format="PNG"
+        )
+        Image.open(generated_image_path).convert("RGB").save(
+            gen_dir / "generated.png", format="PNG"
+        )
+
+        fid_score = fid.compute_fid(str(orig_dir), str(gen_dir))
+
+    return round(float(fid_score), 6)
 
 
 def calculate_ssim(original_image_path, edited_image_path):

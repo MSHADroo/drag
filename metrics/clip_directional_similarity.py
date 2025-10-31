@@ -8,7 +8,7 @@ from transformers import (
     CLIPVisionModelWithProjection,
 )
 
-clip_id = "openai/clip-vit-large-patch14"
+clip_id = "/media/external20/ahmad_zaferani/cache/huggingface/hub/models--openai--clip-vit-large-patch14/snapshots/32bd64288804d66eefd0ccbe215aa642df71cc41/"
 device = "cuda"
 tokenizer = CLIPTokenizer.from_pretrained(clip_id)
 text_encoder = CLIPTextModelWithProjection.from_pretrained(clip_id).to(device)

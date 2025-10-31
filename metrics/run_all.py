@@ -11,50 +11,71 @@ from image_fidelity import calculate_image_fidelity
 from masked_region_preserving_score import \
     compute_masked_region_preserving_score
 from mean_distance import calculate_mean_distance
+from tqdm import tqdm
 
-evaluations_csv = "evaluations.csv"
-if not os.path.exists(evaluations_csv):
-    with open(evaluations_csv, "w") as f:
+
+evaluation_file = "metrics/evaluations-DragDiffusion.csv"
+need_fix = False
+results_dir = "/media/external20/ahmad_zaferani/DragDiffusion/results"
+data_dir = "data"
+
+def fix_wrong_metrics(lines: list[str]):
+    new_lines = [lines[0]]  # header
+    for l in tqdm(lines[1:]):
+        sample_path = l.split(",")[0]
+        sample = sample_path.split("/")[-1]
+        generated_image_path = os.path.join(
+            results_dir, sample_path, "synthesized-image.png"
+        )
+        input_image_path = os.path.join(
+            data_dir, sample_path, f"{sample}_frame1.jpg"
+        )
+        mask_path = os.path.join(data_dir, sample_path, f"mask_{sample}.npy")
+        ground_truth_image_path = os.path.join(
+            data_dir, sample_path, f"{sample}_frame2.jpg"
+        )
+        drag_instructions_path = os.path.join(
+            data_dir, sample_path, f"tracks_{sample}.npy"
+        )
+        drag_vectors_patch_similarity = compute_drag_vectors_patch_similarity(
+            generated_image_path,
+            input_image_path,
+            ground_truth_image_path,
+            drag_instructions_path,
+        )
+        editable_patch_similarity = compute_editable_patch_similarity(
+            generated_image_path, ground_truth_image_path, mask_path
+        )
+        parts = l.strip().split(",")
+        if float(parts[2]) != drag_vectors_patch_similarity:
+            parts[2] = str(drag_vectors_patch_similarity)
+        if float(parts[3]) != editable_patch_similarity:
+            parts[3] = str(editable_patch_similarity)
+        new_lines.append(",".join(parts) + "\n")
+    with open(evaluation_file, "w") as f:
+        f.writelines(new_lines)
+
+
+if not os.path.exists(evaluation_file):
+    with open(evaluation_file, "w") as f:
         f.write(
             "sample,clip_directional_similarity,drag_vectors_patch_similarity,editable_patch_similarity,fid,ssim,image_fidelity,masked_region_preserving_score,mean_distance,time,memory\n"
         )
         processed_samples = set()
 else:
-    with open(evaluations_csv, "r") as f:
+    with open(evaluation_file, "r") as f:
         lines = f.readlines()
-        processed_samples = set(line.split(",")[0] for line in lines[1:])
+    if need_fix:
+        fix_wrong_metrics(lines)
+    processed_samples = set(line.split(",")[0] for line in lines[1:])
 
-def replace_metrics_in_csv(sample_key, drag_val, editable_val, csv_path):
-    # Read CSV, replace the two columns for the matching sample line, write back.
-    with open(csv_path, "r") as f:
-        lines = f.readlines()
-    if not lines:
-        return
-    header = lines[0]
-    body = lines[1:]
-    new_body = []
-    found = False
-    for line in body:
-        if line.startswith(sample_key + ","):
-            parts = line.rstrip("\n").split(",")
-            # Ensure list long enough
-            if len(parts) < 11:
-                parts += [""] * (11 - len(parts))
-            parts[2] = str(drag_val)
-            parts[3] = str(editable_val)
-            new_body.append(",".join(parts) + "\n")
-            found = True
-        else:
-            new_body.append(line)
-    assert found, "Sample key not found in CSV for replacement."
-    with open(csv_path, "w") as f:
-        f.write(header)
-        f.writelines(new_body)
 
-results_dir = "/media/external20/ahmad_zaferani/DragNoise/results"
-data_dir = "../data"
 for subdir in os.listdir(results_dir):
     for sample in os.listdir(os.path.join(results_dir, subdir)):
+        if f"{subdir}/{sample}" in processed_samples:
+            print(f"Skipping {subdir}/{sample}")
+            continue
+
         print(f"Processing {subdir}/{sample}")
         generated_image_path = os.path.join(
             results_dir, subdir, sample, "synthesized-image.png"
@@ -77,6 +98,9 @@ for subdir in os.listdir(results_dir):
             drag_prompt = metadata["action"]
             prompt = metadata["caption"]
 
+        clip_directional_similarity = compute_clip_directional_similarity(
+            input_image_path, ground_truth_image_path, generated_image_path, drag_prompt
+        )
         drag_vectors_patch_similarity = compute_drag_vectors_patch_similarity(
             generated_image_path,
             input_image_path,
@@ -84,16 +108,7 @@ for subdir in os.listdir(results_dir):
             drag_instructions_path,
         )
         editable_patch_similarity = compute_editable_patch_similarity(
-            generated_image_path, input_image_path, ground_truth_image_path, mask_path
-        )
-        if f"{subdir}/{sample}" in processed_samples:
-            # replace the two columns in the CSV and skip full re-evaluation
-            replace_metrics_in_csv(f"{subdir}/{sample}", drag_vectors_patch_similarity, editable_patch_similarity, evaluations_csv)
-            print(f"Updated drag/editable for {subdir}/{sample} in {evaluations_csv}")
-            continue
-
-        clip_directional_similarity = compute_clip_directional_similarity(
-            input_image_path, ground_truth_image_path, generated_image_path, drag_prompt
+            generated_image_path, ground_truth_image_path, mask_path
         )
         fid = calculate_fid(input_image_path, generated_image_path)
         ssim = calculate_ssim(input_image_path, generated_image_path)
@@ -111,7 +126,7 @@ for subdir in os.listdir(results_dir):
         with open(os.path.join(results_dir, subdir, sample, "peak-memory.txt")) as f:
             peak_memory = f.read().split()[1]
 
-        with open(evaluations_csv, "a") as f:
+        with open(evaluation_file, "a") as f:
             f.write(
                 f"{subdir}/{sample},{clip_directional_similarity},{drag_vectors_patch_similarity},{editable_patch_similarity},{fid},{ssim},{image_fidelity},{masked_region_preserving_score},{mean_distance},{consumed_time},{peak_memory}\n"
             )
