@@ -1,0 +1,12 @@
+{
+  "frame1_image": "chair_frame1.jpg",
+  "frame2_image": "chair_frame2.jpg",
+  "caption": "a mid-century modern armchair with a light wooden frame and green upholstered cushions, set against a simple light green background.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation"
+  ],
+  "action": "back of a chair become taller."
+}

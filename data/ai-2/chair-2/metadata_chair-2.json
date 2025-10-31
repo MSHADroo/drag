@@ -1,0 +1,14 @@
+{
+  "frame1_image": "chair-2_frame1.jpg",
+  "frame2_image": "chair-2_frame2.jpg",
+  "caption": "a modern armchair with light wooden frame and green upholstered cushions, set against a plain light green background. The design is minimalist and mid-century inspired.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation",
+    "rotation",
+    "content creation"
+  ],
+  "action": "an armchair turned into a beach chair."
+}

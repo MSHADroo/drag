@@ -3,13 +3,14 @@
   "second_frame_second": 149,
   "frame1_image": "95659498_frame1.jpg",
   "frame2_image": "95659498_frame2.jpg",
-  "action": "a minion turns to right while holding a flamethrower.",
+  "action": "a minion turns to right while holding a flamethrower and its flame becomes bigger.",
   "caption": "A one-eyed Minion character is holding a flamethrower, shooting out a burst of fire in a dark setting. The Minion is wearing its signature goggles and overalls.",
   "categories": [
     "ai-generated",
     "outdoor",
     "object",
     "rotation",
-    "content creation"
+    "content creation",
+    "rescalation"
   ]
 }

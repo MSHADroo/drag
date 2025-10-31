@@ -1,0 +1,13 @@
+{
+  "frame1_image": "flame_frame1.jpg",
+  "frame2_image": "flame_frame2.jpg",
+  "caption": "A single matchstick is burning with a bright, tall flame against a stark white background, creating a minimalist and striking composition.",
+  "categories": [
+    "ai-generated",
+    "indoor",
+    "object",
+    "rescalation",
+    "content creation"
+  ],
+  "action": "a matchstick and its flame become taller."
+}
