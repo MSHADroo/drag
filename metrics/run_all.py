@@ -1,3 +1,4 @@
+import argparse
 import gc
 import json
 import os
@@ -8,16 +9,39 @@ from drag_vectors_patch_similarity import compute_drag_vectors_patch_similarity
 from editable_patch_similarity import compute_editable_patch_similarity
 from fid_ssim import calculate_fid, calculate_ssim
 from image_fidelity import calculate_image_fidelity
-from masked_region_preserving_score import \
-    compute_masked_region_preserving_score
+from masked_region_preserving_score import compute_masked_region_preserving_score
 from mean_distance import calculate_mean_distance
 from tqdm import tqdm
 
+# Parse command line arguments
+parser = argparse.ArgumentParser(description="Run evaluation metrics")
+parser.add_argument(
+    "--evaluation_file",
+    type=str,
+    default="metrics/evaluations-DragonDiffusion.csv",
+    help="Path to the evaluation CSV file",
+)
+parser.add_argument(
+    "--need_fix",
+    type=lambda x: x.lower() == 'true',
+    default=True,
+    help="Whether metrics need fixing (use True or False)"
+)
+parser.add_argument(
+    "--results_dir",
+    type=str,
+    default="/media/external20/ahmad_zaferani/DragonDiffusion/results/",
+    help="Directory containing the results",
+)
 
-evaluation_file = "metrics/evaluations-DragDiffusion.csv"
-need_fix = False
-results_dir = "/media/external20/ahmad_zaferani/DragDiffusion/results"
+args = parser.parse_args()
+
+# Use the parsed arguments
+evaluation_file = args.evaluation_file
+need_fix = args.need_fix
+results_dir = args.results_dir
 data_dir = "data"
+
 
 def fix_wrong_metrics(lines: list[str]):
     new_lines = [lines[0]]  # header
@@ -27,9 +51,7 @@ def fix_wrong_metrics(lines: list[str]):
         generated_image_path = os.path.join(
             results_dir, sample_path, "synthesized-image.png"
         )
-        input_image_path = os.path.join(
-            data_dir, sample_path, f"{sample}_frame1.jpg"
-        )
+        input_image_path = os.path.join(data_dir, sample_path, f"{sample}_frame1.jpg")
         mask_path = os.path.join(data_dir, sample_path, f"mask_{sample}.npy")
         ground_truth_image_path = os.path.join(
             data_dir, sample_path, f"{sample}_frame2.jpg"

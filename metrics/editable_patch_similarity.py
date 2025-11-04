@@ -16,6 +16,12 @@ def compute_editable_patch_similarity(
     ground_truth_image = Image.open(ground_truth_image_path).convert("RGB")
     mask: np.ndarray = np.load(mask_path)
 
+    # Ensure mask has correct shape
+    if mask.ndim == 3 and mask.shape[-1] == 4:  # If mask is RGBA
+        mask = mask[..., :3]  # Take only RGB channels
+    elif mask.ndim == 2:  # If mask is single channel
+        mask = np.stack([mask] * 3, axis=-1)  # Repeat for RGB
+
     if generated_image.size != ground_truth_image.size:
         generated_image = generated_image.resize(
             ground_truth_image.size, Image.Resampling.LANCZOS
